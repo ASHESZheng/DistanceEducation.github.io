@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/js/16sucai.js"></script>
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/js/text.js"></script>
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+		.leftnav{ list-style:none; margin:9px; padding:0;}
+		.leftnav li{ margin-bottom:5px;}
+		.leftnav a{ text-decoration:none; font-size:12px; color:#034c89; background:url(__TMPL__list_imager/kcxx_21.jpg) no-repeat center; line-height:35px; display:block; text-align:left; height:35px;  padding-left:45px; letter-spacing:3px;}
+		.leftnav a:hover,.leftnav a:active{ color:#686868 !important; background:url(__TMPL__list_imager/kcxx_24.jpg) no-repeat center !important;}
+		.leftnav li a{text-overflow:ellipsis;  white-space:nowrap;  overflow:hidden; width: 144px;  padding-left: 43px;text-align: -webkit-left;}
+	.leftchild {text-overflow:ellipsis;  white-space:nowrap; overflow:hidden;}
+	</style>
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<tc_include file="Public:nav-list" />
+<div class="container" style="margin-bottom: -80px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainz">
+				<div class="kjmainleft">
+					<div class="lefttop">
+						<div class="leftbottomsj">
+							<div class="leftmain">
+								<div class="leftcdbj">
+									<ul class="leftnav" id="child">
+										<php>
+											$term_id=$cat_id;//获取当前父分类信息
+											$terms=sp_get_child_terms($term_id);//获取子分类信息
+										</php>
+										<foreach name="terms" item="vo">
+											<!--打印出分类名称-->
+											<a class="leftchild" href="{:leuu('list/index',array('id'=>$vo['term_id']))}" target="main" style="
+		">
+												{$vo.name}
+											</a>
+										</foreach>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="kjmainright">
+					<iframe src=""  id="main" name="main" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resize()" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+    <tc_include file="Public:footer-list" />
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+
+<script>
+	function changebj(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(__TMPL__list_imager/kcxx_27.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(__TMPL__list_imager/left2_21.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#034c89";
+			}
+		}
+		resize()
+	}</script>
+<script >
+	function kcxxser(obj,num,objz,erobj,ernum,nums,iserji,erlinum)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli-erlinum; i++)
+		{
+			var aa=erobj+i;
+			var changeid=obj+i;
+			if(i==num)
+			{
+				document.getElementById(changeid).firstChild.style.background="url(__TMPL__list_imager/kcxx_24.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#686868";
+				document.getElementById(aa).style.display="block";
+			}
+			else
+			{
+				document.getElementById(changeid).firstChild.style.background="url(__TMPL__list_imager/kcxx_21.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#034c89";
+				document.getElementById(aa).style.display="none";
+				if(iserji==0)
+				{
+					for(j=0; j<nums; j++)
+					{
+						var erid=ernum+j;
+						document.getElementById(erid).style.background="url(__TMPL__list_imager/left2_21.jpg) no-repeat center";
+						document.getElementById(erid).style.color="#034c89";
+					}
+				}
+			}
+		}
+	}
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+
+<script type = "text/javascript">
+	window.onload = function(){
+		var button = document.getElementById('mychild0');
+		button.click();//执行执行点击按钮
+	};
+	var objs=document.getElementById("child").getElementsByTagName("a");
+	for(var i=0;i<objs.length;i++)
+	{
+		objs[i].id="mychild" + i;
+	}
+</script>
+</html>

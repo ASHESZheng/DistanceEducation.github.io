@@ -1,0 +1,82 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+	<html>
+	<head>
+		<title><?php echo ($post_title); ?> <?php echo ($site_name); ?> </title>
+		<meta name="keywords" content="<?php echo ($post_keywords); ?>" />
+		<meta name="description" content="<?php echo ($post_excerpt); ?>">
+		<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+			<?php  function _sp_helloworld(){ echo "hello ThinkCMF!"; } function _sp_helloworld2(){ echo "hello ThinkCMF2!"; } function _sp_helloworld3(){ echo "hello ThinkCMF3!"; } ?>
+	<?php $portal_index_lastnews="2"; $portal_hot_articles="1,2"; $portal_last_post="1,2"; $tmpl=sp_get_theme_path(); $default_home_slides=array( array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/1.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/2.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/3.jpg", "slide_url"=>"", ), ); ?>
+	<meta name="author" content="ThinkCMF">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+   	<!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+	<link rel="icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link href="/themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+	<style>
+		/*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+		#backtotop{position: fixed;bottom: 50px;right:20px;display: none;cursor: pointer;font-size: 50px;z-index: 9999;}
+		#backtotop:hover{color:#333}
+		#main-menu-user li.user{display: none}
+		.container{
+			min-width: 1000px;
+			max-width: 1000px;
+		}
+		body{
+			min-width:1000px;
+			max-width: 1000px;
+			margin: auto;
+		}
+	</style>
+	
+	</head>
+	<body>
+
+	<div style="width:753px; background:url(kcxx_04-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/images/kcxx_04.jpg*/">
+		<div class="kjrightzjs">
+			<div class="kjrighttopjs">
+				<div class="kjrightbottomjs">
+					<div class="mbx">
+						<h1><?php echo ($post_title); ?></h1>
+						<span>当前位置：<?php echo ($post_excerpt); ?> >><?php echo ($post_title); ?> </span>
+						<div style="clear:both;"></div></div>
+					<div class="kcxxrtcon">
+						<div class="xxmbmain">
+							<div class="xxmbtop">
+								<div class="xxmbbottom">
+									<div class="xxmbcon">
+										<div>
+											<?php echo ($post_content); echo ($name); ?>
+										<br>
+										<br>
+										　　　　　　
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</body>
+</html>

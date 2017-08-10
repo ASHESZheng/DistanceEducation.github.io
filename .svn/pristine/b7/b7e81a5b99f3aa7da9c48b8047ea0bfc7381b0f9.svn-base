@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$site_seo_title} {$site_name}</title>
+		<meta name="keywords" content="{$site_seo_keywords}" />
+		<meta name="description" content="{$site_seo_description}">
+		<tc_include file="Public:head" />
+		<link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">
+		<!--<style>
+			.caption-wraper{position: absolute;left:50%;bottom:2em;}
+			.caption-wraper .caption{
+			position: relative;left:-50%;
+			background-color: rgba(0, 0, 0, 0.54);
+			padding: 0.4em 1em;
+			color:#fff;
+			-webkit-border-radius: 1.2em;
+			-moz-border-radius: 1.2em;
+			-ms-border-radius: 1.2em;
+			-o-border-radius: 1.2em;
+			border-radius: 1.2em;
+			}
+			@media (max-width: 767px){
+				.sy-box{margin: 12px -20px 0 -20px;}
+				.caption-wraper{left:0;bottom: 0.4em;}
+				.caption-wraper .caption{
+				left: 0;
+				padding: 0.2em 0.4em;
+				font-size: 0.92em;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				-ms-border-radius: 0;
+				-o-border-radius: 0;
+				border-radius: 0;}
+			}
+		</style>-->
+		<style>
+			*{
+				margin:0;padding:0;
+				text-align:center;
+			}
+			.out{
+				height:200px;
+				overflow:hidden;
+			}
+			ul.catalog{
+				list-style:none;
+				-moz-animation:fade-in 3.5s infinite 2s;
+			}
+			ul.catalog{
+				 list-style:none;
+				 -ms-animation:fade-in 3.5s infinite 2s;
+			 }
+			ul.catalog{
+				list-style:none;
+				-webkit-animation:fade-in 3.5s infinite 2s;
+			}
+			ul.catalog{
+				list-style:none;
+				-o-animation:fade-in 3.5s infinite 2s;
+			}
+			ul.catalog > li{
+				float:left;
+				margin:20px;
+				margin-bottom:150px;
+			}
+			ul.catalog > li > div {
+				width:50px;
+				height:50px;
+				background-color:#1e78b7;
+				transform:rotate(45deg);
+				box-shadow: inset 3px 3px 14px 0px #fff;
+				/*border-radius:5px;*/
+			}
+			ul.catalog > li > div.sq-lg {
+				transform:scale(1.2,1.2) rotate(45deg)
+			}
+			ul.catalog > li > div > div{
+				transform:rotate(-45deg);
+				width:1em;padding:1em;
+				color:white;
+				padding-left: 22px;
+				padding-top: 13px;
+			}
+			ul.catalog > li > div.sq-lg > div{
+				transform:rotate(-45deg);
+				width:2em;padding:0.5em;
+				line-height: 18px;
+				margin-left: 4px;
+			}
+			ul.catalog > li > div.sq-lg+p{
+				padding:0px;
+			}
+			ul.catalog > li > p{
+				margin:20px auto;
+				width:25px;
+				background-color:#b4d5ea;
+				border-radius:5px;
+				padding:10px 2px;
+				color: #013467;
+				font-weight: bold;
+				line-height: 17px;
+				filter:alpha(opacity=80);
+				-moz-opacity:0.8;
+				-khtml-opacity: 0.8;
+				opacity: 0.8;
+
+			}
+
+			@-moz-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-ms-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-webkit-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-o-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@keyframes fade-in {
+				0% {opacity: 0;width:0%;}/*初始状态 透明度为0*/
+
+				100% {opacity: 1;width:100%;}/*结束状态 透明度为1*/
+			}
+			@-moz-keyframes fade-in {/*针对Firefox*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-ms-keyframes fade-in {/*针对IE*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-webkit-keyframes fade-in {/*针对webkit内核*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-o-keyframes fade-in {/*针对Opera*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+		</style>
+	</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+
+<ul id="homeslider" class="unstyled">
+	<foreach name="home_slides" item="vo">
+	<li>
+		<div class="caption-wraper">
+			<div class="caption">{$vo.slide_name}</div>
+		</div>
+		<a href="{$vo.slide_url}"><img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt=""></a>
+	</li>
+	</foreach>
+</ul>
+<div class="container" style="position: relative;">
+	<div  style="background-image:url(/index_imager/002.png) ;background-repeat:no-repeat;height: 553px;margin-bottom: -80px;">
+		<div class="row">
+			<div class="soan12" >
+		<div class="out" >
+			<ul class="catalog">
+				<li>
+					<div class="sq-lg">
+						<div class="title">
+							课程学习
+						</div>
+					</div>
+					<p class="title"></p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							导
+						</div>
+					</div>
+					<p class="title">
+						入门篇
+					</p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							学
+						</div>
+					</div>
+					<p class="title">
+						基础测试篇
+					</p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							用
+						</div>
+					</div>
+					<p class="title">
+						工程测量篇
+					</p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							练
+						</div>
+					</div>
+					<p class="title">
+						实践篇
+					</p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							辅
+						</div>
+					</div>
+					<p class="title">
+						导前辅导篇
+					</p>
+				</li>
+				<li>
+					<div>
+						<div class="title">
+							评
+						</div>
+					</div>
+					<p class="title">
+						测评篇
+					</p>
+				</li>
+			</ul>
+		</div>
+		</div>
+		</div>
+	<div class="row"  style="background-image:url(/index_imager/底框.png) ;background-repeat:no-repeat;position: absolute;left:30px;bottom: 50px;width: 240px;height: 187px;">
+		<div class="span3">
+			<h2 class="font-large nospace"><i class="fa fa-bars"></i> MVC分层模式</h2>
+			<p>使用MVC应用程序被分成三个核心部件：模型（M）、视图（V）、控制器（C），他不是一个新的概念，只是ThinkCMF将其发挥到了极致。</p>
+		</div>
+
+	</div>
+
+		<div class="row"  style="background-image:url(/index_imager/背景框.png) ;background-repeat:no-repeat;position: absolute;left:280px;bottom: 50px;width: 501px;height: 187px;">
+			<div class="span6">
+
+			</div>
+
+		</div>
+		<div class="row"  style="background-image:url(/index_imager/课程负责人.png) ;background-repeat:no-repeat;position: absolute;left:795px;bottom: 50px;width: 210px;height: 187px;">
+			<div class="span3">
+
+			</div>
+
+		</div>
+<!--
+	<div>
+		<h1 class="text-center">最新资讯</h1>
+		<h3 class="text-center">Last News</h3>
+	</div>
+	<php>
+		$lastnews=sp_sql_posts("cid:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:listorder asc;limit:4;"); 
+	</php>
+	<div class="row">
+		<foreach name="lastnews" item="vo">
+		<php>$smeta=json_decode($vo['smeta'],true);</php>
+		<div class="span3">
+			<div class="tc-gridbox">
+				<div class="header">
+					<div class="item-image">
+						<a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">
+							<if condition="empty($smeta['thumb'])"> 
+								<img src="__TMPL__Public/images/default_tupian1.png" class="img-responsive" alt="{$vo.post_title}"/>
+							<else /> 
+								<img src="{:sp_get_asset_upload_path($smeta['thumb'])}" class="img-responsive img-thumbnail" alt="{$vo.post_title}" />
+							</if>
+						</a>
+					</div>
+					<h3><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">{$vo.post_title}</a></h3>
+					<hr>
+				</div>
+				<div class="body">
+					<p><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">{:msubstr($vo['post_excerpt'],0,32)}</a></p>
+				</div>
+			</div>
+		</div>
+		</foreach>
+	</div>-->
+
+</div><tc_include file="Public:footer-work"/>
+</div>
+<tc_include file="Public:scripts"/>
+<script src="__TMPL__Public/js/slippry.min.js"></script>
+<script>
+$(function() {
+	var demo1 = $("#homeslider").slippry({
+		transition: 'fade',
+		useCSS: true,
+		captions: false,
+		speed: 1000,
+		pause: 3000,
+		auto: true,
+		preload: 'visible'
+	});
+});
+</script>
+{:hook('footer_end')}
+</body>
+</html>

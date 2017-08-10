@@ -1,0 +1,8 @@
+[ 2016-08-25T14:40:54+08:00 ] ::1 /htsoft-edu-curriculum-2/index.php?g=install&a=testdbpwd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+NOTIC: [8] Undefined index: db_name D:\Ryans233\phpStudy\WWW\htsoft-edu-curriculum-2\simplewind\Core\Library\Think\Db.class.php 第 68 行.
+SQL: show databases; [ RunTime:0.0008s ]
+

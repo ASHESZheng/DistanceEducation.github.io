@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+		<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+		<tc_include file="Public:head" />
+	</head>
+	<body>
+
+	<div style="width:753px; background:url(kcxx_04-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/images/kcxx_04.jpg*/">
+		<div class="kjrightzjs">
+			<div class="kjrighttopjs">
+				<div class="kjrightbottomjs">
+					<div class="mbx">
+						<h1>{$post_title}</h1>
+						<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+						<div style="clear:both;"></div></div>
+					<div class="kcxxrtcon">
+						<div class="xxmbmain">
+							<div class="xxmbtop">
+								<div class="xxmbbottom">
+									<div class="xxmbcon">
+										<div>
+											{$post_content}{$name}
+										<br>
+										<br>
+										　　　　　　
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</body>
+</html>

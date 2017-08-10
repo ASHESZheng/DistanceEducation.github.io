@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第十四章 摄影测量与遥感</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/assets/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/assets/js/16sucai.js"></script>
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/assets/js/jump.js"></script>
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+		 .xxbgcon p{margin-bottom: 0px;!important;}
+	</style>
+
+
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<tc_include file="Public:nav-list" />
+<div class="container" style="margin-bottom: -60px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainz">
+				<div class="kjmainleft">
+					<div class="lefttop">
+						<div class="leftbottom">
+							<div class="leftmain">
+								<div class="leftcdbj">
+									<div class="menu_list ercd" id="firstpane" >
+										<p class="menu_head" id="botton" onclick="a()">{:sp_get_term('12')['name']}</p><!--学前指导-->
+										<div class="menu_body "> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' id='xqzd'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' id='xqzd'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("17",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head" onclick="d()">{:sp_get_term('13')['name']}</p><!--导：入门篇-->
+										<div class="menu_body" ><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' id='dao'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' id='dao'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("5",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head" onclick="x()">{:sp_get_term('14')['name']}</p><!--学：基础测试篇-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' id='xue'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' id='xue'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("6",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head" onclick="y()">{:sp_get_term('15')['name']}</p><!--用：工程测量拍-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_parent' id='yong'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_parent' class='dropdown-toggle' data-toggle='dropdown' id='yong'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("7",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?><img src="/list_imager/ejcd_07.jpg" /> </div>
+										<p class="menu_head" onclick="l()">{:sp_get_term('16')['name']}</p><!--练：实践篇-->
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' id='lian'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' id='lian'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("8",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head" >{:sp_get_term('17')['name']}</p><!--辅：考前辅导篇-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' >\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' >\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("15",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /> </div>
+										<p class="menu_head" onclick="p()">{:sp_get_term('18')['name']}</p><!--评：测评篇-->
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='_top' id='ping'>\$label</a>";
+											$foldertpl="<a href='\$href' target='_top' class='dropdown-toggle' data-toggle='dropdown' id='ping'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("16",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?><img src="/list_imager/ejcd_07.jpg" /> </div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kjmainright">
+					<div style="width:753px; background:url(kcxx_04-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/images/kcxx_04.jpg*/">
+						<div class="kjrightzjs">
+							<div class="kjrighttopjs">
+								<div class="kjrightbottomjs">
+									<div class="mbx">
+										<h1>{$post_title}</h1>
+										<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+										<div style="clear:both;"></div></div>
+									<div class="mbxx">
+										<div style="clear:both;"></div></div>
+									<div class="kcxxrtcon" style="padding-top:10px;">
+
+										<div class="rightxxk" >
+											<php>
+												$lists = sp_sql_posts_paged("cid:30;order:post_date DESC;",17);
+											</php>
+											<volist name="lists['posts']" id="vo">
+												<php>
+													$smeta=json_decode($vo['smeta'], true);
+												</php>
+
+												<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="_top" style="margin-right: -1px;" >{$vo.post_title}</a>
+
+											</volist>
+
+
+											<div style="clear:both;"></div>
+										</div>
+									</div>
+									<div class="kcxxrtcon">
+										<div>
+											<div>{$post_content}</div>									</p>
+
+											<br>
+											<br>
+											　　　　　　
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+
+	</div>
+</div>
+</div>
+<tc_include file="Public:footer-list" />
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+<!--<script>
+	document.getElementById('dh4').firstChild.style.background="url(/list_imager/dh2_03.png) no-repeat center";
+	document.getElementById('dh4').firstChild.style.color="#000";
+	var isIE=!!window.ActiveXObject;
+	var isIE6=isIE&&!window.XMLHttpRequest;
+	if(isIE6==true)
+	{
+		document.getElementById('dh4').firstChild.style.background="none";
+		document.getElementById('dh4').firstChild.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='/list_imager/dh2_03.png')";
+	}
+</script>-->
+<script>
+	function changebj(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/kcxx_27.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#034c89";
+			}
+		}
+		resize()
+	}</script>
+<script >
+	function kcxxser(obj,num,objz,erobj,ernum,nums,iserji,erlinum)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli-erlinum; i++)
+		{
+			var aa=erobj+i;
+			var changeid=obj+i;
+			if(i==num)
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_24.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#686868";
+				document.getElementById(aa).style.display="block";
+			}
+			else
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_21.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#034c89";
+				document.getElementById(aa).style.display="none";
+				if(iserji==0)
+				{
+					for(j=0; j<nums; j++)
+					{
+						var erid=ernum+j;
+						document.getElementById(erid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+						document.getElementById(erid).style.color="#034c89";
+					}
+				}
+			}
+		}
+	}
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+
+</html>

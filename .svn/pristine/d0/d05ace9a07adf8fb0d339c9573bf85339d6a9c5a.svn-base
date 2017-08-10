@@ -1,0 +1,22 @@
+<br>
+<br>
+<br>
+<!-- Footer ================================================== -->
+
+{:hook('footer')}
+<div id="footer" style="background-color:#698da7">
+	<div class="links">
+		<php>$links=sp_getlinks();</php>
+		<foreach name="links" item="vo">
+			<a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+		</foreach>
+	</div>
+	<div  style="color:#fff;height: 35px;line-height: 35px;">
+	<p style="text-align: center;margin-bottom: 0px;">
+		版权所有：XXX大学网络教育学院
+	</p></div>
+</div>
+<div id="backtotop">
+	<i class="fa fa-arrow-circle-up"></i>
+</div>
+{$site_tongji}

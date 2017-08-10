@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; text-align:center;}
+.wkc-wrap{ width:1002px; background:#0f4f7b; margin:0 auto; font-family:'微软雅黑'; overflow:hidden;}
+.wkc{ background:url(/list_imager/wkc_01.jpg) repeat-x; padding:10px;}
+.wkc-left{ width:237px; float:left; margin-right:10px; background:#f4f4f4;}
+.wkcleft-lmone{ background:url(/list_imager/wkc_09.jpg) no-repeat center; height:172px;}
+.wkcleft-lmtwo{ background:url(/list_imager/wkc_15.jpg) no-repeat center; height:355px;}
+.wkcleft-lmthree{ color:#042e4b; font-size:16px; font-family:'宋体'; line-height:30px; padding-bottom:20px; font-weight:bold;}
+.wkc-right{ width:735px; float:left;}
+.wkcright-lmone{ background:#2e78ab; height:158px;margin-bottom:12px; /*overflow:hidden;*/ }
+.wkcright-lmtwo{ background:#FFF; padding:8px;}
+.wkcsplb{ float:left; width:139px; height:134px; cursor:pointer; margin-right:6px;}
+.wkcsplbimg{ background:#FFF; padding:2px;}
+.wkcsplbwz{ font-size:12px; color:#FFF; line-height:22px; font-weight:bold; text-align:left;}
+.spcon{ border:solid 3px #0a588a; height:416px !important;  height:422px;_height:418px;}
+.wkcsp{ float:left; width:640px;}
+.wkcspwz{ color:#aa8125; font-size:20px; line-height:24px; text-align:center; float:left; width:35px; border-left:solid 3px #0a588a; height:416px; padding:0 15px; font-weight:bold; }
+.rollBox{width:735px;overflow:hidden; padding-top:10px;}
+.rollBox .LeftBotton{height:52px;width:19px;background:url(/list_imager/job_mj_069.gif) no-repeat 11px 0;overflow:hidden;float:left;display:inline;margin:25px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:52px;width:20px;background:url(/list_imager/job_mj_069.gif) no-repeat -8px 0;overflow:hidden;float:left;display:inline;margin:25px 0 0 0;cursor:pointer;}
+.rollBox .Cont{width:696px;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:139px;float:left;text-align:center;}
+.rollBox .Cont .pic img{padding:2px;background:#fff;border:1px solid #ccc;display:block;margin:0 auto;}
+.rollBox #List1,.rollBox #List2{float:left;}
+.pic a{ color:#FFF; text-decoration:none; font-size:13px; font-weight:bold; line-height:20px; text-align:left}

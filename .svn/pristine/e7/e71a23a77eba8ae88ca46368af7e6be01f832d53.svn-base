@@ -1,0 +1,11 @@
+[ 2016-09-30T08:35:18+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0029s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###f8113761168e2b34fc81dad9034f37b7',`user_nicename`='admin',`user_email`='admin@gzhtsoft.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2016-09-30 08:35:18',`create_time`='2016-08-25 02:41:05',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0012s ]
+

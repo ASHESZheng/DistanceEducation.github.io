@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+		<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/wkc.css" type="text/css" />
+		<tc_include file="Public:head" />
+		<style>
+			#article_content img{height:auto !important}
+			#article_content {word-wrap: break-word;}
+    		.btn {margin-top: 33px;}
+		</style>
+	</head>
+	<body style=" margin:0; padding:0;">
+	<div style="width:735px;">
+		<div class="wkcright-lmtwo">
+			<div class="spcon">
+				<div class="wkcsp" style="width: 640px;height: 416px;">
+					{$post_content}
+				</div>
+				<div class="wkcspwz">　<br />G<br />P<br />S<br />{$post_title}</div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

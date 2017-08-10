@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+
+		.ejkjmain{ background:url(/list_imager/kcxx_04.jpg) repeat-x;margin-top: -15px;}
+
+		.wrap{ margin:0 auto; width:1000px;border-left:2px #0a7aba solid; border-right:2px #0a7aba solid; background:#FFF; font-family:'宋体'; }
+
+		.kjmainz{ /*min-height:809px; _height:809px;*/ width:972px; margin:0 auto; padding-bottom:20px;}
+		.kjmainleft{ float:left; width:210px; margin-right:9px;}
+		.lefttop{ background:url(/list_imager/kcxx_30.jpg) repeat-y;}
+		.leftbottom{ background:url(/list_imager/kcxx_06.jpg) no-repeat top;}
+		.leftmain{/* _height:796px; min-height:796px; height:auto; */background:url(/list_imager/kcxx_31.jpg) no-repeat bottom; padding:93px 0;padding-bottom:130px;}
+		.leftcdbj{background:url(/list_imager/leftbj_03.jpg) repeat-x; width:205px; margin:0 auto;/* _height:369px; min-height:369px;*/ padding-top:15px;}
+		.leftnav{ list-style:none; margin:0; padding:0;}
+		.leftnav li{ margin-bottom:5px;}
+		.leftnav a{ text-decoration:none; font-size:12px; color:#034c89; background:url(/list_imager/kcxx_21.jpg) no-repeat center; line-height:35px; display:block; text-align:left; height:35px;  padding-left:60px; letter-spacing:3px;}
+
+		.leftyicd a{ text-decoration:none; font-size:12px; color:#034c89; background:url(/list_imager/kcxx_21.jpg) no-repeat center; line-height:35px; display:block; text-align:left; height:35px;  padding-left:60px; letter-spacing:3px;}
+
+
+		.ercd{ width:185px; background:url(/list_imager/ejcd_05.jpg);text-align: center;margin-bottom: 8px;margin-top: 5px;margin: 0 auto;}
+		.ercdt{ background:url(/list_imager/ejcd_03.jpg) no-repeat top;}
+		.ercdb{ background:url(/list_imager/ejcd_07.jpg) no-repeat bottom; padding:15px 0;}
+		.ercdul{ margin:0; padding:0; list-style:none;}
+		.ercdul li{ margin-top:0px;}
+		.ercdul li a{  font-size:12px; font-weight:normal; color:#034c89; height:24px; line-height:24px; display:block; background:url(/list_imager/left2_21.jpg) no-repeat center; padding-left:15px; margin-top:5px; text-decoration:none; letter-spacing:0px;}
+		.kjmainright{ float:left; width:753px;height: 100%;}
+
+	</style>
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<tc_include file="Public:nav-list" />
+<div class="container" style="margin-bottom: -80px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainz">
+				<div class="kjmainleft">
+					<div class="lefttop">
+						<div class="leftbottom">
+							<div class="leftmain">
+								<div class="leftcdbj">
+									<ul class="leftnav" id="leftnav">
+										<li class="leftyicd" onclick="kcxxser('dzf',0,'leftnav','ercd','cdmx',3,0,29)" id="dzf0"><a href="kcxxlx.html" target="main">学前指导</a></li>
+										<div class="ercd" id="ercd0">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul1">
+														<php>
+															$lists = sp_sql_posts_paged("cid:12;order:post_date DESC;",17);
+														</php>
+														<volist name="lists['posts']" id="vo">
+															<php>
+																$smeta=json_decode($vo['smeta'], true);
+															</php>
+															<li onclick="changebj(aa);">
+															<a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+															</li>
+														</volist>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',1,'leftnav','ercd','cdmx2',2,0,29)" id="dzf1"><a href="frame-9.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/01/frame.html" target="main">导：入门篇</a></li>
+										<div class="ercd" id="ercd1" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul2">
+														<li onclick="changebj('ercdul2','cdmx2',0)"><a href="frame-9.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/01/frame.html" target="main" id="cdmx20">第一章 绪论</a></li>
+														<li onclick="changebj('ercdul2','cdmx2',1)"><a href="frame-10.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/02/frame.html" target="main" id="cdmx21">第二章 测量学的基础知识</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',2,'leftnav','ercd','cdmx3',7,0,29)" id="dzf2"><a href="frame-11.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/03/frame.html" target="main">学：基础测量篇</a></li>
+										<div class="ercd" id="ercd2" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul3">
+														<li onclick="changebj('ercdul3','cdmx3',0)"><a href="frame-11.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/03/frame.html" target="main" id="cdmx30">第三章 水准测量</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',1)"><a href="frame-12.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/04/frame.html" target="main" id="cdmx31">第四章 角度测量</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',2)"><a href="frame-13.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/05/frame.html" target="main" id="cdmx32" title="第五章 距离测量与直线定向">第五章 距离测量与直线…</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',3)"><a href="frame-14.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/06/frame.html"target="main"  id="cdmx33" title="第六章 测量误差及数据处理的基本知识">第六章 测量误差及数据…</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',4)"><a href="frame-15.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/07/frame.html"target="main"  id="cdmx34">第七章 控制测量</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',5)"><a href="frame-16.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/08/frame.html" target="main" id="cdmx35" title="第八章 全球定位系统的定位技术">第八章 全球定位系统的…</a></li>
+														<li onclick="changebj('ercdul3','cdmx3',6)"><a href="frame-17.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/09/frame.html" target="main" id="cdmx36" title="第九章 基础地理信息采集及成图方法">第九章 基础地理信息采…</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',3,'leftnav','ercd','cdmx4',5,0,29)" id="dzf3"><a href="frame-18.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/10/frame.html" target="main">用：工程测量篇</a></li>
+										<div class="ercd" id="ercd3" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul4">
+														<li onclick="changebj('ercdul4','cdmx4',0)"><a href="frame-18.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/10/frame.html" target="main" id="cdmx40" title="第十章 地理空间信息的应用">第十章 地理空间信息的…</a></li>
+														<li onclick="changebj('ercdul4','cdmx4',1)"><a href="frame-19.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/11/frame.html" target="main" id="cdmx41" title="第十一章 土木建筑工程中的施工测量">第十一章 土木建筑工程中…</a></li>
+														<li onclick="changebj('ercdul4','cdmx4',2)"><a href="frame-20.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/12/frame.html" target="main" id="cdmx42">第十二章 线路测量</a></li>
+														<li onclick="changebj('ercdul4','cdmx4',3)"><a href="frame-21.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/13/frame.html" target="main" id="cdmx43" title="第十三章 建（构）筑物变形测量">第十三章 建（构）筑物变…</a></li>
+														<li onclick="changebj('ercdul4','cdmx4',4)"><a href="frame-22.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/rmdx/14/frame.html" target="main" id="cdmx44">第十四章 摄影测量与遥感</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',4,'leftnav','ercd','cdmx5',5,0,29)" id="dzf4"><a href="sjsm.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/sjp/sjsm.html" target="main">练：实践篇</a></li>
+										<div class="ercd" id="ercd4" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul5">
+														<li onclick="changebj('ercdul5','cdmx5',1)"><a href="sjsm.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/sjp/sjsm.html" target="main" id="cdmx51">实践说明</a></li>
+														<li onclick="changebj('ercdul5','cdmx5',5)"><a href="syzd.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/sjp/syzd.html" target="main" id="cdmx55">实验指导</a></li>
+														<li onclick="changebj('ercdul5','cdmx5',0)"><a href="spys.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/sjp/spys.html" target="main" id="cdmx50">演示视频</a></li>
+														<li onclick="changebj('ercdul5','cdmx5',3)"><a href="mnsy.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/mnsy/mnsy.html" target="main" id="cdmx53">模拟实验</a></li>
+														<li onclick="changebj('ercdul5','cdmx5',2)"><a href="kysj.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kysj/kysj.html" target="main" id="cdmx52">课外实践</a></li>
+														<li onclick="changebj('ercdul5','cdmx5',4)"><a href="gcsj.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/gcsj/gcsj.html" target="main" id="cdmx54">工程实践</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',5,'leftnav','ercd','cdmx6',4,0,29)" id="dzf5"><a href="fxzn.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kqfd/fxzn.html"target="main" >辅：考前辅导篇</a></li>
+										<div class="ercd" id="ercd5" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul6">
+														<li onclick="changebj('ercdul6','cdmx6',0)"><a href="fxzn.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kqfd/fxzn.html" target="main" id="cdmx60">复习指南</a></li>
+														<li onclick="changebj('ercdul6','cdmx6',1)"><a href="cjfx.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kqfd/cjfx.html" target="main" id="cdmx61">串讲复习</a></li>
+														<li onclick="changebj('ercdul6','cdmx6',2)"><a href="ltjj.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kqfd/ltjj.html" target="main" id="cdmx62">例题讲解</a></li>
+														<li onclick="changebj('ercdul6','cdmx6',3)"><a href="zzfx.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/kqfd/zzfx.html" target="main" id="cdmx63">自主复习</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<li class="leftyicd" onclick="kcxxser('dzf',6,'leftnav','ercd','cdmx7',2,0,29)" id="dzf6"><a href="zxcs.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/cpp/zxcs.html" target="main">评：测评篇</a></li>
+										<div class="ercd" id="ercd6" style="display:none;">
+											<div class="ercdt">
+												<div class="ercdb">
+													<ul class="ercdul" id="ercdul7">
+														<li onclick="changebj('ercdul7','cdmx7',0)"><a href="zxcs.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/cpp/zxcs.html" target="main" id="cdmx70">在线测试</a></li>
+														<li onclick="changebj('ercdul7','cdmx7',1)"><a href="lxcs.html" tppabs="http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/cpp/lxcs.html" target="main" id="cdmx71">离线测试</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="kjmainright">
+					<iframe src=""  id="main" name="main" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resize()" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+    <tc_include file="Public:footer-list" />
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+<!--<script>
+	document.getElementById('dh4').firstChild.style.background="url(/list_imager/dh2_03.png) no-repeat center";
+	document.getElementById('dh4').firstChild.style.color="#000";
+	var isIE=!!window.ActiveXObject;
+	var isIE6=isIE&&!window.XMLHttpRequest;
+	if(isIE6==true)
+	{
+		document.getElementById('dh4').firstChild.style.background="none";
+		document.getElementById('dh4').firstChild.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='/list_imager/dh2_03.png')";
+	}
+</script>-->
+<script>
+	function changebj(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/kcxx_27.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#034c89";
+			}
+		}
+		resize()
+	}</script>
+<script >
+	function kcxxser(obj,num,objz,erobj,ernum,nums,iserji,erlinum)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli-erlinum; i++)
+		{
+			var aa=erobj+i;
+			var changeid=obj+i;
+			if(i==num)
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_24.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#686868";
+				document.getElementById(aa).style.display="block";
+			}
+			else
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_21.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#034c89";
+				document.getElementById(aa).style.display="none";
+				if(iserji==0)
+				{
+					for(j=0; j<nums; j++)
+					{
+						var erid=ernum+j;
+						document.getElementById(erid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+						document.getElementById(erid).style.color="#034c89";
+					}
+				}
+			}
+		}
+	}
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+</html>

@@ -1,0 +1,118 @@
+[ 2016-10-10T11:03:58+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:00+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:04:00+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/custom.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:15+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000825s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001029s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 149 AND `term_id` NOT IN ('12') [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 149 AND `term_id` = '12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 149 AND `term_id` = '12' [ RunTime:0.0006s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='课程导学',`post_keywords`='',`post_source`='',`post_excerpt`='总课程导学',`post_date`='2016-09-30 14:07:55',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin    video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src=\"/data/upload/ueditor/20161008/57f88ff5e89e0.mp4\" data-setup=\"{}\"><source src=\"/data/upload/ueditor/20161008/57f88ff5e89e0.mp4\" type=\"video/mp4\"/></video></p>',`post_modified`='2016-10-10 11:04:15',`smeta`='{\"thumb\":\"\",\"template\":\"article-Grey Bottom video - 1\"}' WHERE `id` = '149' [ RunTime:0.0018s ]
+
+[ 2016-10-10T11:04:18+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:20+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/custom.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:20+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:04:20+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/custom.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:23+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:23+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/currency.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:25+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:25+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/currency.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:26+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/custom.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:04:26+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:04:26+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/custom.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:10+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:06:13+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:37+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:37+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:43+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/currency.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:43+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:45+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:45+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/currency.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:06:47+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:06:51+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:47:55+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2016-10-10T11:56:23+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:56:25+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T11:56:26+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:56:28+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:56:28+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T11:56:29+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-10-10T17:22:26+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+
+[ 2016-10-10T17:22:32+08:00 ] 127.0.0.1 /themes/simplebootx/Public/css/style.css
+ERR: 无法加载控制器:Themes
+

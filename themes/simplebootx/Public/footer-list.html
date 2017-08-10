@@ -1,0 +1,34 @@
+<br>
+<br>
+<br>
+<!-- Footer ================================================== -->
+<style>
+	.ejkjbottom {
+		background: url(/list_imager/kcxx2_21.jpg);
+background: #e5e5e5;
+		height: 38px;
+		line-height: 38px;
+		text-align: center;
+		color: #696969;
+		border-top: solid 2px #7792af;
+		border-left: 2px #0a7aba solid;
+		border-right: 2px #0a7aba solid;
+		width: 1000px;
+	}
+</style>
+{:hook('footer')}
+<div id="footer" >
+	<div class="links">
+		<php>$links=sp_getlinks();</php>
+		<foreach name="links" item="vo">
+			<a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+		</foreach>
+	</div>
+	<div class="ejkjbottom">
+			版权所有：XXX大学网络教育学院
+		</div>
+</div>
+<div id="backtotop">
+	<i class="fa fa-arrow-circle-up"></i>
+</div>
+{$site_tongji}

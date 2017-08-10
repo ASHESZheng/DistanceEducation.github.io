@@ -1,0 +1,120 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/style.js"></script>
+    <link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+    <link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/custom.css" type="text/css" />
+
+</head>
+
+<body>
+<div style="width:753px; background:url(/article-imager/kcxx_04.jpg)">
+    <div class="kjrightzjs">
+        <div class="kjrighttopjs">
+            <div class="kjrightbottomjs">
+                <div class="mbx">
+                    <h1>课程讲义</h1>
+                    <span>当前位置：资源列表 >>课程讲义 </span>
+                    <div style="clear:both;"></div></div>
+                <div class="kcxxrtcon">
+                    <div class="zstzmain">
+                        <div class="xxbgtop"></div>
+                        <div class="xxbgmain">
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第1章 绪论</div>
+                                <a href="kcjy/flash/1.zip">点击下载</a>
+                                <a href="kcjy/01.html" onclick="parent.resize();">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第2章 测量学的基础知识</div>
+                                <a href="kcjy/flash/2.zip">点击下载</a>
+                                <a href="kcjy/02.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第3章 水准测量</div>
+                                <a href="kcjy/flash/3.zip">点击下载</a>
+                                <a href="kcjy/03.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第4章 角度测量</div>
+                                <a href="kcjy/flash/4.zip">点击下载</a>
+                                <a href="kcjy/04.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第5章 距离测量与直线定向</div>
+                                <a href="kcjy/flash/5.zip">点击下载</a>
+                                <a href="kcjy/05.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第6章 测量误差及数据处理的基本知识</div>
+                                <a href="kcjy/flash/6.zip">点击下载</a>
+                                <a href="kcjy/06.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第7章 控制测量</div>
+                                <a href="kcjy/flash/7.zip">点击下载</a>
+                                <a href="kcjy/07.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第8章 全球定位系统的定位技术</div>
+                                <a href="kcjy/flash/8.zip">点击下载</a>
+                                <a href="kcjy/08.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第9章 基础地理信息采集及成图方法</div>
+                                <a href="kcjy/flash/9.zip">点击下载</a>
+                                <a href="kcjy/09.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第10章 地理空间信息的应用</div>
+                                <a href="kcjy/flash/10.zip">点击下载</a>
+                                <a href="kcjy/10.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第11章 土木建筑工程中的施工测量</div>
+                                <a href="kcjy/flash/11.zip">点击下载</a>
+                                <a href="kcjy/11.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第12章 线路测量</div>
+                                <a href="kcjy/flash/12.zip">点击下载</a>
+                                <a href="kcjy/12.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第13章 建（构）筑物变形测量</div>
+                                <a href="kcjy/flash/13.zip">点击下载</a>
+                                <a href="kcjy/13.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="xxbgcon" onmouseover="wzchcolor(this)" onmouseout="wzcolor(this)">
+                                <div class="conwz">第14章 摄影测量与遥感</div>
+                                <a href="kcjy/flash/14.zip">点击下载</a>
+                                <a href="kcjy/14.html">在线查看</a>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                        <div class="xxbgbottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$post_title} {$site_name} </title>
+	<meta name="keywords" content="{$post_keywords}" />
+	<meta name="description" content="{$post_excerpt}">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/custom.css" type="text/css" />
+
+	<tc_include file="Public:head" />
+<style>
+	.xxbgcon p{margin-bottom: 0px;!important;}
+</style>
+</head>
+<body>
+
+<div style="width:753px; background:url(kcxx_04-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/images/kcxx_04.jpg*/">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div style=" width:702px;">
+					<div class="mbx" style="border-bottom: solid #e4e4e4 1px;">
+						<h1>{$post_title}</h1>
+						<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+						<div style="clear:both;"></div></div>
+					<div style="padding-bottom:55px; padding-top:10px;">
+						<div class="zstzmain" style="margin-bottom:0px;">
+							<div class="xxbgtop"></div>
+							<div class="xxbgmain">
+								<div class="xxbgcon">
+									{$post_content}
+									<div style="clear:both"></div>
+								</div>
+								<div class="xxbgbottom"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

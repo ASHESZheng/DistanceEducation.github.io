@@ -1,0 +1,493 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; font-size:12px;}
+.wrap{ margin:0 auto; width:1002px;border-left:2px #0a7aba solid; border-right:2px #0a7aba solid; background:#FFF; font-family:'宋体'; }
+.top{ background:url(idxgx_01.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/idxgx_01.jpg*/ no-repeat; height:155px;}
+.main-top{ background:url(clsy_02.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsy_02.jpg*/ no-repeat; height:335px;}
+.main-bottom{ background:url(indxgx_04.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/indxgx_04.jpg*/ no-repeat; height:213px; position:relative;}
+.bottom{ background:url(clsy_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsy_05.jpg*/ repeat-x; height:35px; text-align:center; line-height:35px; color:#FFF;}
+
+
+.top-dt span{ float:right;  color:#FFF; line-height:28px;  font-size:12px; padding-right:65px; letter-spacing:3px; height:28px;}
+.top-dt a{ text-decoration:none; color:#FFF;}
+.top-dt a:hover{ color:#3f3f3f;}
+
+
+.kjtopname span{ float:right; padding-top:10px; font-weight:bold; color:#FFF; line-height:26px;  font-size:14px; padding-right:150px; letter-spacing:3px;}
+.kjtopname a{ text-decoration:none; color:#FFF; font-size:13px;}
+.kjtopname a:hover{ color:#16619b;}
+
+
+.top-dh{ /*width:640px;*/width:960px; margin:0 auto; padding-top:20px;}
+.fgx{ background:url(idxgxs_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/idxgxs_05.jpg*/ no-repeat center; width:3px;}
+
+.nav{ margin:0; padding:0; font-weight:bold; font-size:14px; height:29px;}
+.nav a{ text-decoration:none; color:#1c3140; width:104px; float:left; text-align:center; color:#FFF;}
+.nav a:hover{ color:#1e78b7; background:url(/index_imager/idxgxs_03.jpg) no-repeat center;}
+.nav li{ float:left; list-style:none; line-height:29px; height:29px;}
+.yjdh{position:relative;}
+
+
+.erdhleft{ background:url(clsymx_03.png)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_03.png*/ no-repeat; width:35px; height:21px; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='images/clsymx_03.png');}
+.tst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -61px;
+	z-index:10px;
+	visibility:hidden;
+}
+.jsdwtst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -160px;
+	z-index:10px;
+	visibility:hidden;
+}
+.kcxxtst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -219px;
+	z-index:10px;
+	visibility:hidden;
+}
+.xxzytst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -380px;
+	z-index:10px;
+	visibility:hidden;
+}
+.zwtstst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -150px;
+	z-index:10px;
+	visibility:hidden;
+}
+.tzzstst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -364px;
+	z-index:10px;
+	visibility:hidden;
+}
+.zstztst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -373px;
+	z-index:10px;
+	visibility:hidden;
+}
+.kcpjtst{
+	position:absolute;
+	font-size:12px;
+	top: 34px;
+	left: -51px;
+	z-index:10px;
+	visibility:hidden;
+}
+.tsa{ background:url(clsymx_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_05.jpg*/ repeat-x; line-height:21px; text-align:center;}
+.tsa a{ color:#b8e0fc;}
+.kcjj{
+	width:170px;
+	position:absolute;
+	line-height:24px;
+	top: 21px;
+	left: 50px;
+} 
+.kcjj a,.kcfzr a{ text-decoration:none; color:#0b0b0b; letter-spacing:1px;}
+.kcjj a:hover,.kcfzr a:hover{ color:#174e78;}
+.kcfzr{
+	position:absolute;
+	width:178px;
+	left: 789px;
+	top: 3px;
+}
+.fzrimg{ width:93px; height:109px; padding:1px; background:#FFF; float:left; margin-right:3px;}
+.fzrmx{ float:left; width:80px; line-height:18px;}
+.xxkindex{ width:522px; height:187px; margin:0 auto; padding-left:50px;}
+.bqxx{background:url(idxgxs_13.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/idxgxs_13.jpg*/ repeat-x bottom; height:43px; width:498px; }
+.bqxx a{ background:url(clsymx_11.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_11.jpg*/ no-repeat bottom; width:92px; height:43px; float:left; text-align:center; line-height:35px; color:#535353; text-decoration:none; font-weight:bold;}
+.bqxx a:hover{ background:url(clsymx_10.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_10.jpg*/ no-repeat bottom !important;  color:#fff !important;}
+.bqnr{  height:141px; padding-left:17px;}
+.bqnr a{ width:156px; height:28px; float:left; text-decoration: none; font-size:12px; color:#696969; text-align:center; padding-top:125px;}
+.bqnr a:hover{ color:#174e78;}
+
+
+
+.szclyz{ background:url(clsymx_18.jpg2-1.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_18.jpg2-1.jpg*/ no-repeat center;}
+.szclyz:hover{ background:url(clsymxs_18.jpg2-1.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_18.jpg2-1.jpg*/ no-repeat center;}
+.cp{ background:url(clsymx_23.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_23.jpg*/ no-repeat center;}
+.cp:hover{ background:url(clsymxs_23.jpg4-1.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_23.jpg4-1.jpg*/ no-repeat center;}
+.szyjp{ background:url(clsymx_21.jpg8-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_21.jpg8-2.jpg*/ no-repeat center;}
+.szyjp:hover{ background:url(clsymxs_21.jpg8-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_21.jpg8-2.jpg*/ no-repeat center;}
+
+.szclyzs{ background:url(clsymx_18s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_18s.jpg*/ no-repeat center;}
+.szclyzs:hover{ background:url(clsymxs_18s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_18s.jpg*/ no-repeat center;}
+.cps{ background:url(clsymx_21s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_21s.jpg*/ no-repeat center;}
+.cps:hover{ background:url(clsymxs_21s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_21s.jpg*/ no-repeat center;}
+.szyjps{ background:url(clsymx_23s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_23s.jpg*/ no-repeat center;}
+.szyjps:hover{ background:url(clsymxs_23s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_23s.jpg*/ no-repeat center;}
+
+.szclyzss{ background:url(clsymx_18ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_18ss.jpg*/ no-repeat center;}
+.szclyzss:hover{ background:url(clsymxs_18ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_18ss.jpg*/ no-repeat center;}
+.cpss{ background:url(clsymx_21ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_21ss.jpg*/ no-repeat center;}
+.cpss:hover{ background:url(clsymxs_21ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_21ss.jpg*/ no-repeat center;}
+.szyjpss{ background:url(clsymx_23ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_23ss.jpg*/ no-repeat center;}
+.szyjpss:hover{ background:url(clsymxs_23ss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_23ss.jpg*/ no-repeat center;}
+
+.szclyzsss{ background:url(clsymx_18sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_18sss.jpg*/ no-repeat center;}
+.szclyzsss:hover{ background:url(clsymxs_18sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_18sss.jpg*/ no-repeat center;}
+.cpsss{ background:url(clsymx_21sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_21sss.jpg*/ no-repeat center;}
+.cpsss:hover{ background:url(clsymxs_21sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_21sss.jpg*/ no-repeat center;}
+.szyjpsss{ background:url(clsymx_23sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymx_23sss.jpg*/ no-repeat center;}
+.szyjpsss:hover{ background:url(clsymxs_23sss.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/clsymxs_23sss.jpg*/ no-repeat center;}
+
+
+
+
+/*左侧菜单背景*/
+.leftcdbj{background:url(leftbj_03.jpg) repeat-x; width:205px; margin:0 auto;/* _height:369px; min-height:369px;*/ padding-top:15px;}
+
+/*课程学习*/
+.ejkjtop{ height:155px;}
+.kjtopname{ background:url(kcxx_01.jpg) no-repeat; height:104px;}
+.kjtipdh{ background:url(kcxx_02.jpg) no-repeat; height:51px;}
+.ejkjmain{ background:url(kcxx_04.jpg) repeat-x;}
+.kjmainz{ /*min-height:809px; _height:809px;*/ width:972px; margin:0 auto; padding-bottom:20px;}
+.kjmainzs{width:998px; padding-bottom:20px;}
+.ejkjbottom{ background:url(kcxx2_21.jpg);background:#e5e5e5; height:38px; line-height:38px; text-align:center;  color:#696969; border-top:solid 2px #7792af;}
+.kjmainleft{ float:left; width:210px; margin-right:9px;}
+.kjmainright{ float:left; width:753px;}
+.lefttop{ background:url(kcxx_30.jpg) repeat-y;}
+.leftbottom{ background:url(kcxx_06.jpg) no-repeat top;}
+.leftbottomsz{ background:url(azdw_03.jpg) no-repeat top;}
+.leftbottomzh{ background:url(zhlx_03.jpg) no-repeat top;}
+.leftbottomsj{ background:url(sjjx.jpg) no-repeat top;}
+.leftbottompj{ background:url(kcpj_06.jpg) no-repeat top;}
+.leftbottomgs{ background:url(kcggxx_03.jpg) no-repeat top;}
+.leftbottomzy{ background:url(zylb_03.jpg) no-repeat top;}
+.leftbottomzs{ background:url(zstz_03.jpg) no-repeat top;}
+.leftmain{/* _height:796px; min-height:796px; height:auto; */background:url(kcxx_31.jpg) no-repeat bottom; padding:93px 0;padding-bottom:130px;}
+.leftnav{ list-style:none; margin:0; padding:0;}
+.leftnav li{ margin-bottom:5px;}
+.leftnav a{ text-decoration:none; font-size:12px; color:#034c89; background:url(kcxx_21.jpg) no-repeat center; line-height:35px; display:block; text-align:left; height:35px;  padding-left:60px; letter-spacing:3px;}
+.leftnav a:hover,.leftnav a:active{ color:#686868 !important; background:url(kcxx_24.jpg) no-repeat center !important;}
+
+
+
+.leftyicd a{ text-decoration:none; font-size:12px; color:#034c89; background:url(kcxx_21.jpg) no-repeat center; line-height:35px; display:block; text-align:left; height:35px;  padding-left:60px; letter-spacing:3px;}
+.leftyicd a:hover{color:#686868 !important; background:url(kcxx_24.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxx_24.jpg*/ no-repeat center !important;}
+.ercdul{ margin:0; padding:0; list-style:none;}
+
+
+.ercdul li{ margin-top:0px;}
+.ercdul li a{  font-size:12px; font-weight:normal; color:#034c89; height:24px; line-height:24px; display:block; background:url(left2_21.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/left2_21.jpg*/ no-repeat center; padding-left:15px; margin-top:5px; text-decoration:none; letter-spacing:0px;}
+.ercdul li a:hover,.ercdul li a:active{ background:url(kcxx_27.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxx_27.jpg*/ no-repeat center !important; color:#FFF !important;}
+
+
+
+.ercd{ margin:0 auto; width:185px; background:url(ejcd_05.jpg) text-align:center; margin-bottom:8px; margin-top:5px;}
+.ercdt{ background:url(ejcd_03.jpg) no-repeat top;}
+.ercdb{ background:url(ejcd_07.jpg) no-repeat bottom; padding:15px 0;}
+.kjrightz{ background:url(kjright_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjright_05.jpg*/;}
+.kjrighttop{ background:url(kjright_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjright_03.jpg*/ no-repeat top;}
+.kjrightbottom{ background:url(kjright_07.jpg) no-repeat bottom; padding-bottom:18px;}
+.kjrightzjs{ background:url(ksdws_06.jpg)}
+.kjrighttopjs{ background:url(ksdws_03.jpg) no-repeat top;}
+.kjrightbottomjs{ background:url(ksdws_07.jpg) no-repeat bottom; }
+.kjrightbottomzh{ background:url(zhlx_11.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zhlx_11.jpg*/ no-repeat bottom; }
+.mbx{ border-bottom:solid #e4e4e4 1px; width:745px; margin:0 auto; margin-bottom:15px; height:36px; overflow:hidden;}
+.mbx h1{ margin:0 auto; font-size:14px; line-height:36px; background:url(kcxx_09.jpg) no-repeat left 10px; padding-left:20px; margin-left:10px; _margin-left:5px; float:left;}
+.mbx span{ float:right; font-size:12px; line-height:36px; padding-right:10px;}
+.kcxxrtcon{ width:722px; margin:5px auto; overflow:hidden; padding-top:10px; margin-bottom:0px; /*font-size:12px; line-height:24px;*/}
+.kcxxrtcon h2{ font-size:16px; margin:0; padding:0; line-height:30px;}
+.rightxxk,.rightxxks{ border-bottom: solid #85aecf 1px; margin-right:2px; height:30px;}
+.rightxxk a{ float:left; text-decoration:none; color:#10367b; font-size:12px; background:url(kcxx_15.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxx_15.jpg*/ no-repeat center; width:73px; line-height:30px; text-align:center; font-weight:bold; margin-right:5px; letter-spacing:0px;}
+.rightxxk a:hover{ background:url(kcxx_13.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxx_13.jpg*/ no-repeat center !important; color:#fff !important;}
+
+.rightxxks a{ float:left; text-decoration:none; color:#10367b; font-size:12px; background:url(kcxxs_15.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxxs_15.jpg*/ no-repeat center; width:70px; line-height:30px; text-align:center; font-weight:bold; margin-right:2px; letter-spacing:0px;}
+.rightxxks a:hover{ background:url(kcxxs_13.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcxxs_13.jpg*/ no-repeat center !important; color:#fff !important;}
+
+
+
+.rightz{ background:url(kjrights_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjrights_03.jpg*/;}
+.rightcon{ background:url(kjrights_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjrights_05.jpg*/ no-repeat bottom; line-height:24px;}
+
+.spysmain{ width:680px; margin:0 auto;}
+.spys{ background:url(spys_03.jpg) no-repeat center; width:310px; height:274px; text-align:center; float:left; color:#404040; font-size:14px; margin-right:15px; margin-left:15px; _margin-right:10px; _margin-left:10px; margin-bottom:25px;}
+.spimg{ height:236px; padding-top:13px; padding-left:14px;/* +padding-left:0px;*/}
+.sptm{ line-height:24px;}
+.sptm a{ text-decoration:none; color:#404040;}
+.sptm a:hover{ color:#155e95;}
+.zxckcon{ width:650px; height:678px; float:left; border:#999 solid 1px; margin-bottom:15px;}
+.zxckcon1{ width:648px; height:484px; float:left; border:#999 solid 1px;}
+.zxckfh,.zxckfhs{ float:left; font-size:14px; letter-spacing:3px; text-align:center; margin-left:10px; font-weight:bold;}
+/*.zxckfhs{ float:right;}*/
+.zxckfh a{ width:27px; height:60px; float:left; background:url(bzdx_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/bzdx_03.jpg*/ no-repeat center; text-decoration:none; color:#262626; padding-top:10px; padding-left:3px;}
+.zxckfh a:hover,.zxckfh a:hover,.zxckfhs a:hover{ color:#13568d;}
+.zhlx2{ padding-left:30px;}
+.zhlx2 td{ border-color:#666; text-align:center;}
+.zxckfhs a{ width:27px; height:45px; float:left; background:url(bzdx_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/bzdx_03.jpg*/ no-repeat center; text-decoration:none; color:#262626; padding-top:15px; padding-left:3px;}
+.zsdsfh{ height:34px;}
+.zsdsfh a{ display:block; background:url(fh_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/fh_03.jpg*/ no-repeat center; width:74px; height:34px; line-height:34px; text-decoration:none; color:#404040; font-size:12px; float:right; font-weight:bold; letter-spacing:5px; text-align:center;}
+.zsdsfh a:hover{ color:#09F;}
+.tblxbt{ background:url(tblxt_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/tblxt_03.jpg*/ no-repeat center;height:35px; margin-left:1px; font-size:12px; padding-top:15px;}
+.tblxbt a{ color:#252525; text-decoration:none; font-size:12px; font-weight:bold; background:url(tblx_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/tblx_03.jpg*/ no-repeat center; width:67px; height:29px; float:left; line-height:29px; text-align:center;}
+.tblxbt a:hover{ color:#fff !important; background:url(tblx_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/tblx_05.jpg*/ no-repeat center !important;}
+.xgsybt a{ background:url(xgsyej_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_03.jpg*/ no-repeat center; width:197px; height:29px; float:left; margin-right:10px; font-size:12px; font-weight:normal; display:block;}
+.xgsybt a:hover{ background:url(xgsyej_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_05.jpg*/ no-repeat center !important; color:#424242 !important;}
+
+
+
+.tblxbts{ margin:0 1px; font-size:14px;  background:#ecf6ff;  border-bottom:solid 1px #a2bed6;}
+.xgsybts td{ border-right:solid 1px #a2bed6; }
+.xgsybts,.xgsybtsb{ margin:0 20px;}
+.xgsybts a{  float:left;  font-size:13px;  line-height:20px; color:#252525; text-decoration:none;}
+.xgsybts a:hover{  color:#03F; !important; }
+.xgsybtsb a{ color:#252525; text-decoration:none;  background:url(xgsyej_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_03.jpg*/ no-repeat center; text-align:center;width:197px; height:29px; float:left; margin-right:10px; font-size:14px; font-weight:normal; display:block; line-height:29px;}
+.xgsybtsb a:hover{  background:url(xgsyej_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_05.jpg*/ no-repeat center !important; color:#fff !important; }
+
+.xgsyleft{ width:124px; background:url(xgsys_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsys_03.jpg*/ no-repeat top left; padding-top:30px; float:left; height:307px; padding-bottom:30px;}
+.xgsylefts{ width:124px; background:url(xgsysa_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsysa_03.jpg*/ no-repeat top left; padding-top:20px; float:left; padding-bottom:20px; margin-bottom:60px;}
+.xgsyleft a,.xgsylefts a{ display:block; float:left; background:url(xgsyej_12.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_12.jpg*/ no-repeat center; width:100px; height:34px; text-decoration: none; padding-left:15px; line-height:34px; color:#424224;}
+.xgsyleft a:hover,.xgsylefts a:hover{ background:url(xgsyej_10.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgsyej_10.jpg*/ no-repeat center !important; color:#fff !important; }
+
+
+.xgsyright{ float:left; width:590px; line-height:24px;}
+.xgsycon{ padding:30px 15px 15px 15px;}
+
+
+/*导行*/
+.dhnav{list-style:none; margin:0; padding:0; margin:0 auto; width:946px;}
+.dhnav li{ float:left; line-height:51px; font-size:14px; font-weight:bold;}
+.dhnav li a{ text-decoration:none; color:#fff; display:block; width:94px; text-align:center; position:relative; cursor:pointer;}
+.dhnav li a:hover{ color:#000; background:url(dh2_03.png)
+
+
+/*教师队伍*/
+.jsjj{ margin:0 auto; width:618px; margin-top:20px; margin-bottom:30px;}
+.jsjjimg{ float:left; background:url(azdw_06.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/azdw_06.jpg*/ no-repeat center; width:148px; height:187px; margin-right:10px; padding-top:10px; padding-left:18px;}
+.jsjjcon{ float:left; width:442px; letter-spacing:0px; padding-top:8px;}
+.jsjjcon td{ padding-left:15px; line-height:35px; font-size:12px;}
+.jxtd table{ margin:0 auto;}
+.jxtd td{border:#d3d3d3 solid 1px; line-height:24px; font-size:12px; text-align:center;}
+
+/*综合练习*/
+.zhlxz{ width:700px; margin:0 auto;}
+.zhlxtm{ background:url(zhlx_06.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zhlx_06.jpg*/ no-repeat left;height:42px;}
+.zhlxtm span{ font-size:12px; background:#e5f0f9; margin-left:40px; _margin-left:20px; display:block; margin-top:15px; float:left; padding:0 15px; line-height:24px;}
+.zhlxt{ line-height:24px; font-size:12px;}
+.rightcons{ background:url(kjrightss_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjrightss_05.jpg*/ no-repeat bottom; line-height:24px;}
+.zcttm{ font-weight:bold;}
+
+/*课程概述*/
+.xxmbmain{ background:url(kcgsxx_09.jpg) width:680px; margin:0 auto; margin-top:10px; margin-bottom:50px;}
+.xxmbtop{ background:url(kcgsxx_06.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcgsxx_06.jpg*/ no-repeat top;}
+.xxmbbottom{ background:url(kcgsxx_11.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kcgsxx_11.jpg*/ no-repeat bottom; }
+.xxmbcon{ padding:50px; font-size:12px; line-height:24px;}
+.xxmbbt{ font-size:16px; text-align: center; font-weight:bold;}
+
+/*资源列表*/
+.zylbmain{ margin:0 auto; margin-top:10px; margin-bottom:60px; overflow:hidden;}
+
+
+.zylbmains{margin:0 auto; margin-top:10px; margin-bottom:60px; overflow:hidden;}
+.zylbmains a{ background:url(zylb_07.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zylb_07.jpg*/ no-repeat center; width:240px; height:40px; float:left; text-align: center; text-decoration:none; color:#034c89; font-size:15px; letter-spacing:0px; font-weight:bold; padding-top:150px; margin-top:25px;}
+.zylbmains a:hover{ color:#be8042;}
+
+
+.sbzs{ background:url(spx_03.jpg) no-repeat center; width:180px; height:156px; float:left; color:#404040; letter-spacing:1px; font-weight:bold; text-align:center; margin-bottom:25px;}
+.sbmsqcfd{width:180px; height:156px; margin:0 auto; cursor:pointer;}
+.sbsm{
+	width:180px;
+	border:solid 1px #CCC;
+	background:#FFF;
+	position:absolute;
+	text-align:left;
+	font-weight:normal;
+	padding:5px;
+	padding-right:3px;
+	z-index:999;
+	visibility:hidden;
+	margin:0px 0px 0px 0px !important;
+	margin:0px 0px 0px -90px;
+}
+.sbimg{ padding-top:8px; z-index:1;}
+.sbwz{ padding-top:16px; font-weight:normal;}
+.sbwz a{ text-decoration:none; color:#404040;}
+.sbwz a:hover{ color:#155e95;}
+.zysypdf{ width:650px; height:700px; margin:0 auto;}
+.xgqk{ width:728px; margin:0 auto;}
+.xgqkbt{ background:url(xgqk_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgqk_03.jpg*/ no-repeat; height:37px;}
+.xgqkbt h1{ margin:0 auto; font-size:14px; font-weight:normal; padding-left:35px; padding-top:17px; color:#2c4867;}
+.xgqkconz{ margin-left:18px; width:702px; border:solid 1px #c1e1ff;}
+.xgqkconjs{ background:url(xgqk_11.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgqk_11.jpg*/ repeat-x bottom; width:680px;  margin:0 auto; margin-top:10px; padding-bottom:4px;}
+.xgqkconjss{ width:680px;  margin:0 auto; margin-top:10px; padding-bottom:4px;}
+.conjsimg{ background:url(xgqk_07.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/xgqk_07.jpg*/ no-repeat; width:104px; height:143px; float:left; border: solid 1px #a3d5fd; padding:1px; background:#FFF; margin-bottom:8px;}
+.conjswz{ float:left; width:552px; padding:0 10px; font-size:12px; line-height:24px; color:#252525;}
+.xgqkconmx{ width:680px;}
+.xgqkconmx td{ font-size:12px; line-height:24px; color:#252525; padding-left:20px;}
+
+/*知识拓展*/
+.zstzmain{ width:701px; margin:0 auto; margin-top:10px; margin-bottom:50px; overflow:hidden;}
+.xxbgtop{ background:url(zstz_06.jpg) no-repeat; height:71px;}
+.xxbgmain{ background:url(zstz_20.jpg);}
+.xxbgbottom{ background:url(zstz_21.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_21.jpg*/ no-repeat; height:127px;}
+.xxbgcon{ line-height:30px; width:555px; margin:0 auto; cursor:pointer;}
+.conwz{ background:url(zstz_15.jpg) no-repeat left; float:left; padding-left:20px;}
+.xxbgcon a{ float:right; background:url(zstz_10.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_10.jpg*/ no-repeat center; width:69px; height:30px; margin-right:10px; text-decoration:none; color:#000000; text-align:center;}
+.xxbgcon a:hover{ background:url(zstz_12.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_12.jpg*/ no-repeat center; color:#004e9d;}
+.conwzs{  padding-left:20px;}
+.xxbgcons{ line-height:30px; width:555px; margin:0 auto; cursor:pointer;}
+.xxbgcons a{  text-decoration:none; color:#000000; text-align:center;}
+.xxbgcons a:hover{ color:#004e9d;}
+
+
+/*实践教学*/
+.dspmain{ width:640px; margin:0 auto; background:url(dsp_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/dsp_03.jpg*/ no-repeat center; height:484px;}
+.dspmains{ width:635px; margin:0 auto; /*margin-top:20px;*/ margin-bottom:50px;}
+.dspspk{ height:438px;}
+.dspsp{ width:607px; _width:609px; height:377px; float:left; /*_margin-left:0px; margin-left:13px;*/ margin-top:12px; margin-left:13px; _margin-left:6px;}
+.dspbt{ text-align:center; font-size:14px; font-weight:bold; padding-top:20px; color:#404040;}
+
+
+/*内容*/
+.tabletd td{ padding:5px; font-size:12px; line-height:20px; border:solid 1px #d3d3d3; padding-right:2px;}
+.tabletds td{  font-size:12px; line-height:20px; border:solid 1px #d3d3d3; padding:3px; padding-right:1px;}
+.tabletda td{  font-size:12px; line-height:20px; border:solid 1px #d3d3d3; text-align:center;}
+.sbimg img{ border:0;}
+.topbj{ background:url(kspzsy_04.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/images/kspzsy_04.jpg*/ repeat-x;}
+.leftbj{ background:url(kspzsy_08.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/images/kspzsy_08.jpg*/ repeat-y;}
+.rightbj{ background:url(kspzsy_10.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/images/kspzsy_10.jpg*/ repeat-y;}
+.bottombj{ background:url(kspzsy_14.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/images/kspzsy_14.jpg*/ repeat-x;}
+.dsppt{background:url(kspzsy_16.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/images/kspzsy_16.jpg*/ no-repeat center; height:26px; text-align:center; padding-top:23px; color:#404040; font-size:14px; font-weight:bold;}
+.tpg{height:15px; padding:40px 0px 40px 0px ;}
+.tpg div{float:right; margin-right:5px; display:inline; text-align:center; line-height:15px; font-size:12px; font-weight:bold;}
+.tpa{float:left; width:43px; height:15px; cursor:pointer; background:url(tp_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/tp_03.jpg*/;}
+.tpd{float:left; width:43px; height:15px; cursor:pointer; background:url(tp_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/tp_05.jpg*/;}
+
+.tab{font-size:12px; text-align:center; line-height:24px; margin:5px 0; font-weight:600;}
+.tab td{margn:0 5px; }
+.jiepic{border:1px #c5c5c5 solid; padding:2px;}
+
+.kyimg{width:280px; height:211px; float:left;}
+.xgtab{border-top:solid 1px #ccc; border-left:solid 1px #ccc; }
+.xgtab td{border-bottom:solid 1px #ccc; border-right:solid 1px #ccc; }
+
+.tblxswf{width:663px; height:643px; border:#CCC solid 1px; margin:0 auto; margin-top:20px;}
+
+.zhlxtab td{ border:solid 1px #999999;}
+.tabtd td{ text-align:center; padding:10px;}
+.xszp{ text-align:left; font-size:12px; line-height:22px; padding-bottom:15px; letter-spacing:1px;}
+.xszp h3{ margin:0; padding:0; text-align:center; font-size:16px; line-height:30px;}
+.kcfzrtd td{ font-size:12px; line-height:30px; padding-left:2px;}
+.sjjxtop,.sjjxtopa{ width:698px; margin:0 auto; background:url(sjjxgx_04.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_04.jpg*/ repeat-x; height:31px;}
+.sjjxtop a{ float:left; background:url(sjjxgx_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_05.jpg*/ no-repeat center; width:82px; height:31px; line-height:31px; text-decoration:none; color:#363636; margin-right:6px; text-align:center; font-size:13px; font-weight:bold;}
+.sjjxtop a:hover{ background:url(sjjxgx_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_03.jpg*/ no-repeat center;}
+
+
+.sjjxtopa a{ float:left; background:url(sjjxgxa_05.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgxa_05.jpg*/ no-repeat center; width:114px; height:31px; line-height:31px; text-decoration:none; color:#363636; margin-right:6px; text-align:center; font-size:13px; font-weight:bold;}
+.sjjxtopa a:hover{ background:url(sjjxgxa_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgxa_03.jpg*/ no-repeat center;}
+
+
+
+.sjjxspbj{background:url(sjjxgx_09.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_09.jpg*/ no-repeat bottom; width:722px; height:512px; padding-top:30px; }
+.sjjxsp{ background:url(sjjxgxs_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgxs_03.jpg*/ no-repeat center; width:497px; height:442px; margin:0 auto;}
+.sjjxspms{ font-size:14px; text-align:center; color:#363636; font-weight:bold; line-height:40px;}
+.sjjxspbt{ width:678px; margin:0 auto;}
+.sjjxspbt a{ color:#363636; text-decoration:none; font-size:12px; float:left;height:29px;margin-right:30px; line-height:29px; text-align:center;}
+.spbta{ background:url(sjjxgx_14.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_14.jpg*/ no-repeat center; width:205px; }
+.spbta:hover{ background:url(sjjxgx_12.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_12.jpg*/ no-repeat center; width:205px;}
+.spbtd{ background:url(sjjxgxs_07.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgxs_07.jpg*/ no-repeat center; width:107px;}
+.spbtd:hover{ background:url(sjjxx_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxx_03.jpg*/ no-repeat center; width:107px;}
+.spbtaa{ background:url(sjjxgx_14s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_14s.jpg*/ no-repeat center; width:265px; }
+.spbtaa:hover{ background:url(sjjxgx_12s.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/sjjxgx_12s.jpg*/ no-repeat center; width:265px;}
+
+
+.kcjj h3{ margin:0; padding:0; text-align:center; font-size:15px; color:#1860a2; line-height:40px; letter-spacing:1px;}
+.idxkcfzr{ font-size:15px; color:#1860a2; line-height:40px; letter-spacing:1px; border-bottom:solid 1px #859fb1; padding-left:10px; font-weight:bold; margin-bottom:10px;}
+<li><a href="{U:('index/index')}">首页</a> </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="{:leuu('list/index',array('id'=>$vo['term_id']))}"></a>
+
+
+<php>
+							$where=array();$where['id']=array('eq',15);
+							$eq_articles=sp_sql_posts("cid:$term_id;
+								$portal_hot_articles;
+								field:post_title,post_excerpt,post_date,tid,post_modified,smeta,order:id desc;
+								limit:5;",$where);
+						</php>
+
+
+							$where=array();$where['post_modified'] = array('like',"%$time%");
+												$like_articles=sp_sql_posts("cid:$term_id;
+												$portal_hot_articles;
+												field:post_title,post_excerpt,post_date,tid,post_modified,smeta,order:post_modified desc;
+												limit:5;",$where);
+
+
+
+
+
+
+												<link rel="stylesheet" href="/admin/themes/simplebootx/Portal/AdminPost/css/demo.css" type="text/css" />
+	<link rel="stylesheet" href="/admin/themes/simplebootx/Portal/AdminPost/css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="/admin/themes/simplebootx/Portal/AdminPost/css/style.css" type="text/css" />
+		<script type="text/javascript" language="javascript" src="/admin/themes/simplebootx/Portal/AdminPost/js/modernizr.custom.04022.js"></script>
+
+
+		<tr>
+                            <th width="80">简单介绍</th>
+                            <td><div id='content_tip'></div>
+                            	    <div class="container">
+			<!-- Codrops top bar -->
+      
+			<section class="tabs">
+	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+		        <label for="tab-1" class="tab-label-1">简单介绍</label>
+		
+	            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+		        <label for="tab-2" class="tab-label-2">简单介绍</label>
+		
+			    <div class="clear-shadow"></div>
+				
+		        <div class="content">
+			        <div class="content-1">
+                         <script type="text/plain" id="scontent" name="post[post_scontent]"></script></p>
+				    </div>
+			        <div class="content-2">
+                        <p> <script type="text/plain" id="scontent" name="post[post_scontent]"></script></p>
+				    </div>
+		        </div>
+			</section>
+        </div>
+                             
+                             </td>
+                        </tr>
+
+                        <link rel="stylesheet" href="/admin/themes/simplebootx/Portal/AdminPost/css/styles.css" type="text/css" />
+<script type="text/javascript" language="javascript" src="/admin/themes/simplebootx/Portal/AdminPost/js/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="/admin/themes/simplebootx/Portal/AdminPost/js/tytabs.jquery.min.js"></script>

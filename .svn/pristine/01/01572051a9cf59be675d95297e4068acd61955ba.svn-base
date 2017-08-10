@@ -1,0 +1,93 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo ($name); ?> <?php echo ($seo_title); ?> <?php echo ($site_name); ?></title>
+	<meta name="keywords" content="<?php echo ($seo_keywords); ?>" />
+	<meta name="description" content="<?php echo ($seo_description); ?>">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/css/currency.css" type="text/css" />
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+	</style>
+		<?php  function _sp_helloworld(){ echo "hello ThinkCMF!"; } function _sp_helloworld2(){ echo "hello ThinkCMF2!"; } function _sp_helloworld3(){ echo "hello ThinkCMF3!"; } ?>
+	<?php $portal_index_lastnews="2"; $portal_hot_articles="1,2"; $portal_last_post="1,2"; $tmpl=sp_get_theme_path(); $default_home_slides=array( array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/1.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/2.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/3.jpg", "slide_url"=>"", ), ); ?>
+	<meta name="author" content="ThinkCMF">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+   	<!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+	<link rel="icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link href="/themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+	<style>
+		/*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+		#backtotop{position: fixed;bottom: 50px;right:20px;display: none;cursor: pointer;font-size: 50px;z-index: 9999;}
+		#backtotop:hover{color:#333}
+		#main-menu-user li.user{display: none}
+		.container{
+			min-width: 1000px;
+			max-width: 1000px;
+		}
+		body{
+			min-width:1000px;
+			max-width: 1000px;
+			margin: auto;
+		}
+	</style>
+	
+</head>
+<body>
+
+<div style="width:753px; ">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx">
+					<h1><?php echo ($name); ?></h1>
+					<span>当前位置：课程学习 >><?php echo ($name); ?> </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon">
+
+					<?php $lists = sp_sql_posts_paged("cid:39;order:post_date DESC;",17); ?>
+					<div class="zylbmain">
+								<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+									<div class="spysmain">
+									<div class="spys">
+									<?php if(empty($smeta['thumb'])): ?><div class="spimg"><a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><img src="/themes/simplebootx/Public/images/default_tupian1.png"  alt="<?php echo ($vo["post_title"]); ?>" border="0" style="margin-top: 10px;">
+											</a></div>
+										<?php else: ?>
+										<div class="spimg"><a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>"  alt="<?php echo ($vo["post_title"]); ?>" border="0" style="margin-top: 10px;"/>
+									</a></div><?php endif; ?>
+									<div class="sbwz">
+										<a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><?php echo ($vo["post_title"]); ?></a>
+									</div>
+					                </div>
+					            </div><?php endforeach; endif; else: echo "" ;endif; ?>
+
+						<div style="clear:both"></div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

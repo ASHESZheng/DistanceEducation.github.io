@@ -1,0 +1,31 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+	</style>
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<tc_include file="Public:nav-list" />
+<div class="container" style="margin-bottom: -80px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainzs">
+				<php>$page177=sp_sql_page("177");</php>
+				<div>{$page177.post_content}</div>
+				<div style="clear:both"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<tc_include file="Public:footer-list" />
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+</html>

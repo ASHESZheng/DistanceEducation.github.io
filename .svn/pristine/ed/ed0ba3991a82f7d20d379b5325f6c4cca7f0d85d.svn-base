@@ -1,0 +1,637 @@
+[ 2016-10-09T08:21:42+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:44+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:45+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:47+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:47+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:48+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:48+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:49+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:49+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:51+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:21:51+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:40:29+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:41:04+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:41:08+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:49:16+08:00 ] 127.0.0.1 /index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000833s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001010s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='0',`name`='教师队伍',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list-Teachers',`one_tpl`='article' WHERE `term_id` = '2' [ RunTime:0.0008s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-2' WHERE ( term_id=2 ) [ RunTime:0.0007s ]
+
+[ 2016-10-09T08:51:06+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:51:07+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:51:49+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:52:06+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:57:20+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T08:59:22+08:00 ] 127.0.0.1 /index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000968s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('0','教师队伍1','','article','','','','list','article') [ RunTime:0.0009s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-46' WHERE ( term_id=46 ) [ RunTime:0.0007s ]
+
+[ 2016-10-09T09:00:35+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001679s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('获奖证书','','','教师队伍','2016-10-09 09:00:05','1','0','0','2016-10-09 09:00:35','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','159') [ RunTime:0.0007s ]
+
+[ 2016-10-09T09:00:52+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000608s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001874s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('学术研究','','','教师队伍','2016-10-09 09:00:36','1','0','0','2016-10-09 09:00:52','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0014s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','160') [ RunTime:0.0012s ]
+
+[ 2016-10-09T09:01:11+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000635s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000703s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('教学团队','','','教师队伍','2016-10-09 09:00:53','1','0','0','2016-10-09 09:01:11','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0014s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','161') [ RunTime:0.0010s ]
+
+[ 2016-10-09T09:01:32+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000941s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000866s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('主讲教师四','','','教师队伍','2016-10-09 09:01:12','1','0','0','2016-10-09 09:01:32','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0009s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','162') [ RunTime:0.0009s ]
+
+[ 2016-10-09T09:01:46+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000607s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000699s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('主讲教师三','','','教师队伍','2016-10-09 09:01:33','1','0','0','2016-10-09 09:01:46','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0011s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','163') [ RunTime:0.0009s ]
+
+[ 2016-10-09T09:01:59+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000821s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000911s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('主讲教师二','','','教师队伍','2016-10-09 09:01:47','1','0','0','2016-10-09 09:01:59','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0016s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','164') [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:02:13+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000679s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001030s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('主讲教师一','','','教师队伍','2016-10-09 09:02:00','1','0','0','2016-10-09 09:02:13','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0013s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','165') [ RunTime:0.0008s ]
+
+[ 2016-10-09T09:02:27+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001514s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000783s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('课程负责人','','','教师队伍','2016-10-09 09:02:13','1','0','0','2016-10-09 09:02:27','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0016s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('46','166') [ RunTime:0.0011s ]
+
+[ 2016-10-09T09:03:20+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:23+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:23+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:24+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:25+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:25+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:26+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:27+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:03:28+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:36+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:36+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:05:38+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:15:22+08:00 ] 127.0.0.1 /index.php?g=&m=AdminTerm&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000845s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001044s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_terms` (`parent`,`name`,`description`,`taxonomy`,`seo_title`,`seo_keywords`,`seo_description`,`list_tpl`,`one_tpl`) VALUES ('0','实践教学1','','article','','','','list','article') [ RunTime:0.0008s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-47' WHERE ( term_id=47 ) [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:15:34+08:00 ] 127.0.0.1 /index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000652s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000676s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='0',`name`='实践教学',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list-Practice Teaching',`one_tpl`='article' WHERE `term_id` = '5' [ RunTime:0.0011s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-5' WHERE ( term_id=5 ) [ RunTime:0.0008s ]
+
+[ 2016-10-09T09:15:36+08:00 ] 127.0.0.1 /index.php?g=&m=AdminTerm&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000623s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000866s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WORK2\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_terms` SET `parent`='0',`name`='实践教学',`description`='',`taxonomy`='article',`seo_title`='',`seo_keywords`='',`seo_description`='',`list_tpl`='list-Practice Teaching',`one_tpl`='article' WHERE `term_id` = '5' [ RunTime:0.0014s ]
+SQL: UPDATE `cmf_terms` SET `path`='0-5' WHERE ( term_id=5 ) [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:16:57+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:16:58+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:18:08+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000863s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000974s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('建筑施工测量放样','','','实践教学','2016-10-09 09:15:48','1','0','0','2016-10-09 09:18:08','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0013s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','167') [ RunTime:0.0013s ]
+
+[ 2016-10-09T09:18:52+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000656s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000845s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0024s ]
+
+[ 2016-10-09T09:18:58+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000719s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000931s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('数字地形测图的野外采集数据','','','实践教学','2016-10-09 09:18:09','1','0','0','2016-10-09 09:18:58','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0011s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','168') [ RunTime:0.0013s ]
+
+[ 2016-10-09T09:19:24+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:19:27+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:21:00+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:21:01+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:29+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:29+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:30+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:31+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:31+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:32+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:32+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:33+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:25:33+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:26:03+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:26:03+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:26:04+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:26:05+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:32:10+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:32:11+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:40:02+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:43:12+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001137s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000823s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('图根导线测量','','','实践教学','2016-10-09 09:18:59','1','0','0','2016-10-09 09:43:12','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0017s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','169') [ RunTime:0.0015s ]
+
+[ 2016-10-09T09:43:54+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000804s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004218s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004390s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('全站仪的认识与使用','','','实践教学','2016-10-09 09:43:12','1','0','0','2016-10-09 09:43:54','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','170') [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:44:50+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000585s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000806s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('全圆方向法观测水平角','','','实践教学','2016-10-09 09:43:55','1','0','0','2016-10-09 09:44:50','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','171') [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:45:41+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000839s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001134s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('测回法观测水平角和竖直角','','','实践教学','2016-10-09 09:44:51','1','0','0','2016-10-09 09:45:41','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0011s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','172') [ RunTime:0.0007s ]
+
+[ 2016-10-09T09:46:38+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000795s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001769s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('DJ6光学经纬仪的使用','','','实践教学','2016-10-09 09:45:41','1','0','0','2016-10-09 09:46:38','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0015s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','173') [ RunTime:0.0014s ]
+
+[ 2016-10-09T09:47:04+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000714s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000731s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('水平电子仪的使用','','','实践教学','2016-10-09 09:46:39','1','0','0','2016-10-09 09:47:04','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0021s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','174') [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:47:27+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000810s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002414s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0051s ]
+
+[ 2016-10-09T09:47:33+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000655s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000739s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('普通水准测量','','','实践教学','2016-10-09 09:47:05','1','0','0','2016-10-09 09:47:33','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0011s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','175') [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:48:09+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000620s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000734s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: post_content D:\WORK2\application\Portal\Controller\AdminPostController.class.php 第 59 行.
+SQL: INSERT INTO `cmf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_date`,`post_status`,`istop`,`recommended`,`post_modified`,`post_author`,`smeta`,`post_content`) VALUES ('DS3水准仪的认识与使用','','','实践教学','2016-10-09 09:47:34','1','0','0','2016-10-09 09:48:09','1','{\"thumb\":\"\",\"template\":\"\"}','') [ RunTime:0.0011s ]
+SQL: INSERT INTO `cmf_term_relationships` (`term_id`,`object_id`) VALUES ('47','176') [ RunTime:0.0007s ]
+
+[ 2016-10-09T09:48:26+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T09:48:27+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:36+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:38+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:39+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:40+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:40+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:41+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:00:41+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+
+[ 2016-10-09T10:11:19+08:00 ] 127.0.0.1 /undefinedpublic/js/noty/noty.js?v=
+ERR: 无法加载控制器:Undefinedpublic
+

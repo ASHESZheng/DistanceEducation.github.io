@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$post_title} {$site_name} </title>
+		<meta name="keywords" content="{$post_keywords}" />
+		<meta name="description" content="{$post_excerpt}">
+		<tc_include file="Public:head" />
+
+<body class="">
+<div id="iproduct">
+<a  target="sbcl" >{$post_content}</a>
+</div>
+
+<div class="">
+	<iframe frameborder="0" width="100%" height="100%" scrolling="no" id="sbcl" name="sbcl" src=""  style="border-bottom:solid #8f8f8f 1px;height: 1000px;"></iframe>
+	</div>
+<tc_include file="Public:scripts"/>
+</body>
+	<script>
+		var objs=document.getElementById("iproduct").getElementsByTagName("a");
+		for(var i=0;i<objs.length;i++)
+		{
+			objs[i].id="myid" + i;
+		}
+		window.onload = function(){
+			var button = document.getElementById('myid2');
+			button.click();//执行执行点击按钮
+		};
+	</script>
+</html>

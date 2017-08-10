@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>无标题文档</title>
+	<meta name="keywords" content="{$post_keywords}" />
+	<meta name="description" content="{$post_excerpt}">
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="icon" href="__TMPL__Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="__TMPL__Public/images/favicon.ico" type="image/x-icon">
+	<link href="__TMPL__Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+	<link href="__TMPL__Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="__TMPL__Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<script src="__PUBLIC__/js/jquery.js"></script>
+	<script src="__TMPL__Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="__TMPL__Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="__TMPL__Public/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/style-1.css" type="text/css" />
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/css-1.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/assets/js/tbhb.js"></script>
+
+	<style>
+		#article_content img{height:auto !important}
+		#article_content {word-wrap: break-word;}
+		.btn {margin-top: 33px;}
+		.active li a:hover{background-color: #6cb7f8}
+	</style>
+
+	<link href="style.css"  rel="stylesheet" type="text/css" /><script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/test.js"></script>
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/custom.css" type="text/css" />
+
+	<!--<script language="javascript">
+            var finishSco = false;
+            var multSCO = false;
+            //继续学习依据，按页：page；按时间position
+            var goonStudyWith = "page";
+
+            //多节点每个节点完成时间比例
+            var blockPassK = 0.75;
+
+            //完成准则(只针对单节点)，按累计时长：duration；按内容块：block；
+            var completedRule = "duration";
+            //单节点完成页数占总页数的比例
+            var easyPassTime = 0.8;
+            //单节点按总时间的完成时间比例
+            var totalPassK = 0.8;
+            var commitTime = 5;
+            window.onload = function(){
+                setSCOID("1");
+                loadPage();
+            }
+
+            window.onunload = function(){
+                closeSco();
+            }
+
+            function setStatus()
+            {
+                if(multSCO)
+                {
+                    finishSco = true;
+                }
+                else
+                {
+                    var preStudyDur = format2Sec(doLMSGetValue("cmi.core.total_time"));
+                    var curStudyDur = getThisDur();
+                    if((preStudyDur+curStudyDur)>=1200) //学习10分钟算完成
+                    {
+                        finishSco = true;
+                    }
+                    else
+                    {
+                        finishSco = false;
+                    }
+                }
+            }
+            function closeSco()
+            {
+                if(exitPageStatus)	return;
+                setStatus();
+                //alert("exitPageStatus exitIE:"+exitIE);
+                //获取
+                var status = doLMSGetValue( "cmi.core.lesson_status" );
+                //alert("status:"+status+" finishSco:"+finishSco);
+                if(status=="completed")
+                    return unloadPage('completed');
+                else if(status=="passed")
+                    return unloadPage('passed');
+                else
+                {
+                    if( finishSco==false)
+                    {
+                        return unloadPage('incomplete');
+                    }
+                    else if(finishSco == true)
+                    {
+                        return unloadPage('completed');
+                    }
+                }
+            }
+            function format2Sec(str)
+            {
+                var sec=0;
+                if(str.indexOf(":")>=0)
+                {
+                    abc = str.split(":");
+                    sec = Number(abc[0])*3600+Number(abc[1])*60+Number(abc[2]);
+                }
+                return sec;
+            }
+
+        </script>
+        <script type="text/javascript">
+            var checked=false;
+            var totalQ =18;
+            var totalW =0;
+            var prePauseTime = 5000;
+            var rightNum=0;
+            var tempID;
+            var checkModel = 0;
+        </script>-->
+<style>
+	.kcxxrtcon p a {float: left;
+	background: url(/article-imager/sjjxgx_05.jpg) no-repeat center;
+	width: 82px;
+	height: 31px;
+	line-height: 31px;
+	text-decoration: none;
+	color: #363636;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;}
+</style>
+</head>
+
+<body>
+        <div style="width:753px; background:url(kcxx_04-2.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/images/kcxx_04.jpg*/">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx">
+					<h1>{$post_title}</h1>
+					<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon">
+					<div class=main-wrap>
+						<div id=slide-box>
+							<B class=corner></B>
+							<div class=slide-content id=J_slide>
+								<div class=wrap>
+
+										<php>$photos=$smeta['photo'];</php>
+										<if condition="$photos">
+											<ul class=ks-switchable-content>
+												<foreach name="photos" item="vo">
+													<li>
+														<img  alt="" src="{:sp_get_asset_upload_path($vo['url'])}" />
+													</li>
+
+												</foreach>
+											</ul></if>
+								</div>
+								<div class=ks-switchable-triggers>
+									<a class=prev id=J_prev href="javascript:void(0);">
+										<b class=corner></b><span>&#8249;</span><b class=corner></b></a>
+									<a class=next id=J_next href="javascript:void(0);">
+										<b class=corner></b><span>&#8250;</span><b class=corner></b></a>			</div>
+							</div>
+							<b class=corner></b>	</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div></body>
+<script type=text/javascript>
+	var D=YAHOO.util.Dom, E=YAHOO.util.Event;
+
+	KISSY().use("*", function(S) {
+		var el = D.get('J_slide'),
+				activeIndex = parseInt(el.getAttribute('data-active-index')) || 0;
+
+		var carousel = new S.Carousel(el, {
+			hasTriggers: false,
+			navCls: 'ks-switchable-nav',
+			contentCls: 'ks-switchable-content',
+			activeTriggerCls: 'current',
+			effect: "scrollx",
+			steps: 1,
+			viewSize: [615],
+			activeIndex: activeIndex
+		});
+
+		E.on('J_prev', 'click', carousel.prev, carousel, true);
+		E.on('J_next', 'click', carousel.next, carousel, true);
+	});
+
+	KISSY().use("*", function(S) {
+		var el = D.get('J_shoppingGuide');
+		if(!el){
+			return;
+		}
+		var	activeIndex = parseInt(el.getAttribute('data-active-index')) || 0;
+
+		var carousel = new S.Carousel(el, {
+			navCls: 'ks-switchable-nav',
+			contentCls: 'ks-switchable-content',
+			activeTriggerCls: 'current',
+			effect: "scrollx",
+			steps: 2,
+			viewSize: [635],
+			activeIndex: activeIndex
+		});
+
+		E.on('J_shoppingGuidePrev', 'click', carousel.prev, carousel, true);
+		E.on('J_shoppingGuideNext', 'click', carousel.next, carousel, true);
+	});
+</script>
+<script >
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+<script>
+	document.getElementById('tbxgsy0').style.background="url(/article-imager/xgsyej_10.jpg) no-repeat center";
+	document.getElementById('tbxgsy0').style.color="#fff";
+</script>
+<!--<script>
+	function xgsychanges(objz,objtm,num,objcon)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('a').length;
+		for(i=0; i<dhli; i++)
+		{
+			var tmid=objtm+i;
+			var conid=objcon+i;
+			if(i==num)
+			{
+
+				document.getElementById(tmid).style.background="url(/article-imager/xgsyej_10.jpg) no-repeat center";
+				document.getElementById(tmid).style.color="#fff";
+				document.getElementById(conid).style.display="block";
+			}
+			else
+			{
+				document.getElementById(tmid).style.background="url(/article-imager/xgsyej_12.jpg) no-repeat center";
+				document.getElementById(tmid).style.color="#424242";
+				document.getElementById(conid).style.display="none";
+			}
+		}
+	}
+</script>-->
+</html>
+

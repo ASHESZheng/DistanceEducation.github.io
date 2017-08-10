@@ -1,0 +1,145 @@
+[ 2016-09-29T08:21:55+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:21:56+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:21:57+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:21:58+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:21:59+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:21:59+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:00+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:01+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:05+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:06+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:06+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:06+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:07+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:07+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T08:22:07+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T10:09:33+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T10:20:05+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T11:15:43+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:15:51+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:15:57+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:16:00+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=edit&term=41&id=133
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:16:17+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:16:24+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:16:27+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=edit&term=41&id=132
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T11:16:30+08:00 ] 127.0.0.1 /index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-09-29T14:05:23+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+
+[ 2016-09-29T16:07:56+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '15' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:08:12+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '15' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:08:46+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '15' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:17:46+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 15 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:18:41+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 38 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:18:54+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '38' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:19:35+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '38' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:19:38+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = '38' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:19:56+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 38 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:34:34+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `post_modified` LIKE '%%' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:34:52+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `post_modified` LIKE '%%' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:34:53+08:00 ] 127.0.0.1 /index.php?m=list&a=index&id=4
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `post_modified` LIKE '%%' AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('4') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:54:08+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 15 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:54:24+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 15 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:54:25+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 15 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T16:54:39+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'order' in 'field list'
+ [ SQL语句 ] : SELECT `post_title`,`post_excerpt`,`post_date`,`tid`,`post_modified`,`smeta`,`order` FROM cmf_term_relationships a INNER JOIN cmf_posts as b on a.object_id =b.id INNER JOIN cmf_users as c on b.post_author = c.id  WHERE `id` = 15 AND `status` = 1 AND `post_status` = 1 AND `term_id` IN ('') ORDER BY post_date LIMIT 5  
+
+[ 2016-09-29T17:09:16+08:00 ] 127.0.0.1 /style.css
+ERR: 无法加载控制器:Style
+

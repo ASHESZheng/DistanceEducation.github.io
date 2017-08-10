@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css"  rel="stylesheet" type="text/css" /><script type="text/javascript" language="javascript" src="__TMPL__Public/js/test.js"></script>
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/currency.css" type="text/css" />
+<style type="text/css">
+	.as div{overflow: hidden !important;}
+
+</style>
+</head>
+<body>
+<div style="width:753px;">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx">
+					<h1>{$post_title}</h1>
+					<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon">
+					<!--正文-->
+					<div  id="myidg" style="margin-top: -40px;">
+						{$post_content}
+					</div>
+
+					<div class="">
+						<iframe frameborder="0" width="100%" height="100%" scrolling="no" id="sbcl" name="sbcl" src=""  style="height: 800px;"></iframe><br><br><br><br>
+					</div>
+					<!--正文-->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+<script >
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	document.getElementById('tbxgsy0').style.background="url(__TMPL__article-imager/xgsyej_10.jpg) no-repeat center";
+	document.getElementById('tbxgsy0').style.color="#fff";
+</script>
+<script>
+	document.querySelector('#myidg a').setAttribute('target','sbcl');
+	document.querySelector('#myidg a').setAttribute('id','xxc');
+	window.onload = function(){
+		var button = document.getElementById('xxc');
+		button.click();//执行执行点击按钮
+	};
+</script>
+</html>
+

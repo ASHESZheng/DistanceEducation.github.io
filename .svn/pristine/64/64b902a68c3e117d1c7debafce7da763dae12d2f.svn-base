@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$post_title} {$site_name} </title>
+	<meta name="keywords" content="{$post_keywords}" />
+	<meta name="description" content="{$post_excerpt}">
+	<tc_include file="Public:head" />
+	<style>
+		.kjrightz{ background:url(/article-imager/kjright_05.jpg);}
+		.kjrighttop{ background:url(/article-imager/kjright_03.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjright_03.jpg*/ no-repeat top;}
+		.kjrightbottom{ background:url(/article-imager/kjright_07.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/kjright_07.jpg*/ no-repeat bottom; padding-bottom:18px;}
+		.mbx{ border-bottom:solid #e4e4e4 1px; width:745px; margin:0 auto; margin-bottom:15px; height:36px; overflow:hidden;}
+		.mbxx{  width:745px; margin:0 auto; margin-bottom:15px; height:36px; overflow:hidden;}
+		.mbxx  h1{ margin:0 auto; font-size:14px; line-height:36px; background:url(/article-imager/kcxx_09.jpg) no-repeat left 10px; padding-left:20px; margin-left:10px; _margin-left:5px; float:left;}
+		.mbxx span{ float:right; font-size:12px; line-height:36px; padding-right:10px;}
+		.mbx  h1{ margin:0 auto; font-size:14px; line-height:36px; background:url(/article-imager/kcxx_09.jpg) no-repeat left 10px; padding-left:20px; margin-left:10px; _margin-left:5px; float:left;}
+		.mbx span{ float:right; font-size:12px; line-height:36px; padding-right:10px;}
+		.kcxxrtcon{ width:722px; margin:5px auto; overflow:hidden; padding-top:10px; margin-bottom:0px; /*font-size:12px; line-height:24px;*/}
+		.kcxxrtcon h2{ font-size:16px; margin:0; padding:0; line-height:30px;}
+
+		.rightxxk,.rightxxks{ border-bottom: solid #85aecf 1px; margin-right:2px; height:30px;}
+		.rightxxk a{ float:left; text-decoration:none; color:#10367b; font-size:12px; background:url(/article-imager/kcxx_15.jpg) no-repeat center; width:73px; line-height:30px; text-align:center; font-weight:bold; margin-right:5px; letter-spacing:0px;}
+		.rightxxk,.rightxxks{ border-bottom: solid #85aecf 1px; margin-right:2px; height:30px;}
+		.rightxxk a:hover{ background:url(/article-imager/kcxx_13.jpg) no-repeat center !important; color:#fff !important;}
+		.rightz{ background:url(/article-imager/kjrights_03.jpg);}
+		.rightcon{ background:url(/article-imager/kjrights_05.jpg) no-repeat bottom; line-height:24px;}
+
+
+	</style>
+</head>
+<body>
+<div style="width:753px; background:url(kcxx_04-3.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/images/kcxx_04.jpg*/">
+	<div class="kjrightz">
+		<div class="kjrighttop">
+			<div class="kjrightbottom">
+				<div class="mbx"><h1>{:sp_get_term(27)['name']}</h1>
+					<span>当前位置：{$post_excerpt} >>{:sp_get_term('27')['name']} </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon" style="padding-top:10px;">
+					<div>
+
+
+
+
+
+						<div style="width:753px;">
+
+							<div class="">
+								<div class="" style="padding-right: 30px;
+">
+									<div class="">
+										<div class="mbxx">
+											<div style="clear:both;"></div></div>
+										<div class="kcxxrtcon" style="padding-top:10px;">
+											<div class="rightxxk" id="rightxxk">
+												<php>
+													$lists = sp_sql_posts_paged("cid:27;order:post_date DESC;",17);
+												</php>
+												<volist name="lists['posts']" id="vo">
+													<php>
+														$smeta=json_decode($vo['smeta'], true);
+													</php>
+
+														<a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="ejmain" style="margin-right: -1px;">{$vo.post_title}</a>
+
+												</volist>
+
+
+
+												<div style="clear:both;"></div>
+											</div>
+											<div class="kcxxzcon">
+												<iframe src=""  id="ejmain" name="ejmain" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resizea();parent.resize();" marginheight="0" marginwidth="0" allowtransparency="yes"></iframe>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+
+						<div style="clear:both;"></div>
+					</div>
+					<div class="kcxxzcon">
+						<iframe src=""   name="ejmain" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resizea();parent.resize();" marginheight="0" marginwidth="0" allowtransparency="yes"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	function xxkbjchangess(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('a').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/article-imager/kcxx_13.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/article-imager/kcxx_15.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#10367b";
+			}
+		}
+	}
+	function xxkbjchangessa(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('a').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/article-imager/kcxxs_13.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/article-imager/kcxxs_15.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#10367b";
+			}
+		}
+		parent.resize();resizea();
+	}
+
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+
+</script>
+</html>

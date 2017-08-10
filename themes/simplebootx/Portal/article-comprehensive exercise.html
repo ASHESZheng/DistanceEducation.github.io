@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+	<meta name="keywords" content="{$post_keywords}" />
+	<meta name="description" content="{$post_excerpt}">
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="icon" href="__TMPL__Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="__TMPL__Public/images/favicon.ico" type="image/x-icon">
+	<link href="__TMPL__Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+	<link href="__TMPL__Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="__TMPL__Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<script src="__PUBLIC__/js/jquery.js"></script>
+	<script src="__TMPL__Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="__TMPL__Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="__TMPL__Public/css/style.css" rel="stylesheet">
+
+	<style>
+		#article_content img{height:auto !important}
+		#article_content {word-wrap: break-word;}
+		.btn {margin-top: 33px;}
+		.active li a:hover{background-color: #6cb7f8}
+	</style>
+
+<link href="style.css"  rel="stylesheet" type="text/css" /><script type="text/javascript" language="javascript" src="__TMPL__Public/js/test.js"></script>
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/custom.css" type="text/css" />
+
+
+
+</head>
+
+<body>
+<div style="width:753px;">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx">
+					<h1>{$post_title}</h1>
+					<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon">
+						<ul id="myTab" class="nav nav-tabs ">
+							<li class="active">
+								<a href="#home" data-toggle="tab">
+									练习题
+								</a>
+							</li>
+							<li><a href="#ios" data-toggle="tab">答案</a></li>
+						</ul>
+						<div id="myTabContent" class="tab-content">
+							<div class="tab-pane fade in active" id="home">
+								<p>{$post_content|htmlspecialchars_decode}</p>
+								<br><br>
+							</div>
+							<div class="tab-pane fade" id="ios">
+								<p>{$post_scontent|htmlspecialchars_decode}</p>
+								<br><br>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+

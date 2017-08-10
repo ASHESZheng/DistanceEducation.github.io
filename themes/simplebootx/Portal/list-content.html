@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$name}</title>
+<link href="style.css"  rel="stylesheet" type="text/css" />
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/js/test.js"></script>
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/assets/js/jquery-1.6.4.min.js"></script>
+
+	<style type="text/css">
+	.xxbgcon li a{ float:right; background:url(__TMPL__article-imager/zstz_10.jpg) no-repeat center; width:69px; height:30px; margin-right:10px; text-decoration:none; color:#000000; text-align:center;}
+	.xxbgcon a:hover{ background:url(__TMPL__article-imager/zstz_12.jpg) no-repeat center; color:#004e9d;}
+	.xxbgcon{ line-height:30px; width:555px; margin:0 auto; cursor:pointer;}
+	.conwz p{
+
+		margin-bottom:-30px;
+
+		margin-top:-29px;
+
+	}
+</style>
+
+</head>
+
+<body>
+<div style="width:753px; ">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx"><h1>{:sp_get_term($cat_id)['name']}</h1>
+					<span>当前位置：{$seo_title} >>{$seo_description} </span>
+					<div style="clear:both;"></div></div>
+				<div style="line-height: 24px;text-indent: 2em;margin-left: 10px;">
+					<!--<php>$page292=sp_sql_page("292");</php>
+					<div>{$page292.post_content}</div>-->
+				</div>
+				<div class="kcxxrtcon">
+					<div class="zstzmain" style="margin-bottom:0px;">
+						<div class="xxbgtop"></div>
+						<div class="xxbgmain">
+							<php>
+								$lists = sp_sql_posts_paged("cid:$cat_id;field:post_title,post_content;order:listorder asc");
+							</php>
+							<volist name="lists['posts']" id="vo">
+								<php>
+									$smeta=json_decode($vo['smeta'], true);
+								</php>
+							<div class="xxbgcons">
+									<div class="conwz" id="std"><!--调出文章标题和文章内容-->
+										{$vo.post_title}{$vo.post_content}
+									</div>
+								<div style="clear:both"></div>
+							</div>
+							</volist>
+							<div class="xxbgbottom"></div>
+						</div>
+					</div>
+							<div style="clear:both;"></div>
+
+						<div class="sjjxmain">
+							<iframe src=""  id="main" name="_top" frameborder="0" scrolling="no" width="100%" height="100%" marginheight="0" marginwidth="0" allowtransparency="yes" onLoad="resizea();parent.resize();"></iframe>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div></div>
+</body>
+<script >
+	function resizea()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+</script>
+<script>
+	document.getElementById('tbxgsy0').style.background="url(__TMPL__article-imager/xgsyej_10.jpg) no-repeat center";
+	document.getElementById('tbxgsy0').style.color="#fff";
+</script>
+<script>
+	$("div a").attr("target","_black");</script>
+</html>
+

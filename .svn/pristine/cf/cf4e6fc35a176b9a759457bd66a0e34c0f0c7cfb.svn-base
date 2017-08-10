@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/16sucai.js"></script>
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+
+	</style>
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<tc_include file="Public:nav-list" />
+<div class="container" style="margin-bottom: -80px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainz">
+				<div class="kjmainleft">
+					<div class="lefttop">
+						<div class="leftbottom">
+							<div class="leftmain">
+								<div class="leftcdbj">
+									<ul class="leftnav">
+										<php>
+											$lists = sp_sql_posts_paged("cid:9;order:post_date DESC;",17);
+										</php>
+										<volist name="lists['posts']" id="vo">
+											<php>
+												$smeta=json_decode($vo['smeta'], true);
+											</php>
+											<li>
+												<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+											</li>
+										</volist>
+									</ul>
+
+									<div class="menu_list ercd" id="firstpane">
+										<p class="menu_head" style=" padding-left: 50px;color: #034c89;">{:sp_get_term('63')['name']}</p><!--共享评价-->
+										<div class="menu_body "> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<php>
+												$lists = sp_sql_posts_paged("cid:63;order:post_date DESC;",17);
+											</php>
+											<volist name="lists['posts']" id="vo">
+												<php>
+													$smeta=json_decode($vo['smeta'], true);
+												</php>
+												<li>
+													<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+												</li>
+											</volist>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head" style=" padding-left: 50px;"><a href="{:U('list/index?id=64')}" target="main">{:sp_get_term('64')['name']}</a></p><!--学生评价-->
+
+										<!--<p class="menu_head">{:sp_get_term('14')['name']}</p>
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='main'>\$label</a>";
+											$foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("6",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head">{:sp_get_term('15')['name']}</p>
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='main'>\$label</a>";
+											$foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("7",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?><img src="/list_imager/ejcd_07.jpg" /> </div>
+										<p class="menu_head">{:sp_get_term('16')['name']}</p>
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											  <php>
+											$lists = sp_sql_posts_paged("cid:16;order:post_date DESC;",17);
+										     </php>
+											<volist name="lists['posts']" id="vo">
+												<php>
+													$smeta=json_decode($vo['smeta'], true);
+												</php>
+												<li onclick="changebj(aa);">
+													<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+												</li>
+											</volist>
+											<?php
+                                            $effected_id="main-menu";
+                                            $filetpl="<a href='\$href' target='main'>\$label</a>";
+											$foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>";
+											$ul_class="dropdown-menu" ;
+											$li_class="" ;
+											$style="fournav";
+											$showlevel=6;
+											$dropdown='dropdown';
+											echo sp_get_menu("8",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+											?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head">{:sp_get_term('17')['name']}</p>
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<php>
+											$lists = sp_sql_posts_paged("cid:17;order:post_date DESC;",17);
+										</php>
+											<volist name="lists['posts']" id="vo">
+												<php>
+													$smeta=json_decode($vo['smeta'], true);
+												</php>
+												<li onclick="changebj(aa);">
+													<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+												</li>
+											</volist><img src="/list_imager/ejcd_07.jpg" /> </div>
+									<p class="menu_head">{:sp_get_term('18')['name']}</p>
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<php>
+											$lists = sp_sql_posts_paged("cid:18;order:post_date DESC;",17);
+										</php>
+											<volist name="lists['posts']" id="vo">
+												<php>
+													$smeta=json_decode($vo['smeta'], true);
+												</php>
+												<li onclick="changebj(aa);">
+													<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+												</li>
+											</volist><img src="/list_imager/ejcd_07.jpg" /> </div>-->
+
+</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="kjmainright">
+					<iframe src=""  id="main" name="main" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resize()" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+    <tc_include file="Public:footer-list" />
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+<!--<script>
+	document.getElementById('dh4').firstChild.style.background="url(/list_imager/dh2_03.png) no-repeat center";
+	document.getElementById('dh4').firstChild.style.color="#000";
+	var isIE=!!window.ActiveXObject;
+	var isIE6=isIE&&!window.XMLHttpRequest;
+	if(isIE6==true)
+	{
+		document.getElementById('dh4').firstChild.style.background="none";
+		document.getElementById('dh4').firstChild.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='/list_imager/dh2_03.png')";
+	}
+</script>-->
+<script>
+	function changebj(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/kcxx_27.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#034c89";
+			}
+		}
+		resize()
+	}</script>
+<script >
+	function kcxxser(obj,num,objz,erobj,ernum,nums,iserji,erlinum)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli-erlinum; i++)
+		{
+			var aa=erobj+i;
+			var changeid=obj+i;
+			if(i==num)
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_24.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#686868";
+				document.getElementById(aa).style.display="block";
+			}
+			else
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_21.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#034c89";
+				document.getElementById(aa).style.display="none";
+				if(iserji==0)
+				{
+					for(j=0; j<nums; j++)
+					{
+						var erid=ernum+j;
+						document.getElementById(erid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+						document.getElementById(erid).style.color="#034c89";
+					}
+				}
+			}
+		}
+	}
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{$site_seo_title} {$site_name}</title>
+		<meta name="keywords" content="{$site_seo_keywords}" />
+		<meta name="description" content="{$site_seo_description}">
+		<tc_include file="Public:head" />
+		<link href="__TMPL__Public/css/slippry/slippry.css" rel="stylesheet">
+		<!--<style>
+			.caption-wraper{position: absolute;left:50%;bottom:2em;}
+			.caption-wraper .caption{
+			position: relative;left:-50%;
+			background-color: rgba(0, 0, 0, 0.54);
+			padding: 0.4em 1em;
+			color:#fff;
+			-webkit-border-radius: 1.2em;
+			-moz-border-radius: 1.2em;
+			-ms-border-radius: 1.2em;
+			-o-border-radius: 1.2em;
+			border-radius: 1.2em;
+			}
+			@media (max-width: 767px){
+				.sy-box{margin: 12px -20px 0 -20px;}
+				.caption-wraper{left:0;bottom: 0.4em;}
+				.caption-wraper .caption{
+				left: 0;
+				padding: 0.2em 0.4em;
+				font-size: 0.92em;
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				-ms-border-radius: 0;
+				-o-border-radius: 0;
+				border-radius: 0;}
+			}
+		</style>-->
+		<style>
+			*{
+				margin:0;padding:0;
+				/*text-align:center;*/
+			}
+			.out{
+				height:200px;
+				overflow:hidden;
+			}
+			ul.catalog{
+				list-style:none;
+				-moz-animation:fade-in 7.5s infinite 2s;
+			}
+			ul.catalog{
+				 list-style:none;
+				 -ms-animation:fade-in 7.5s infinite 2s;
+			 }
+			ul.catalog{
+				list-style:none;
+				-webkit-animation:fade-in 7.5s infinite 2s;
+			}
+			ul.catalog{
+				list-style:none;
+				-o-animation:fade-in 7.5s infinite 2s;
+			}
+			ul.catalog > li{
+				float:left;
+				margin:20px;
+				margin-bottom:150px;
+			}
+			ul.catalog > li > div {
+				width:40px;
+				height:40px;
+				background-color:#1e78b7;
+				transform:rotate(45deg);
+				box-shadow: inset 3px 3px 14px 0px #fff;
+				/*border-radius:5px;*/
+			}
+			ul.catalog > li > div.sq-lg {
+				transform:scale(1.5,1.5) rotate(45deg)
+			}
+			ul.catalog > li > div > div{
+				transform:rotate(-45deg);
+				width:1em;padding:1em;
+				color:white;
+				padding-left: 19px;
+				padding-top: 3px;
+			}
+			ul.catalog > li > div.sq-lg > div{
+				transform:rotate(-45deg);
+				width:2em;padding:0.5em;
+				line-height: 13px;
+				margin-left: 3px;
+				font-size: 12px;
+			}
+			ul.catalog > li > div.sq-lg+p{
+				padding:0px;
+			}
+			ul.catalog > li > p{
+				margin:12px auto;
+				width:25px;
+				background-color:#b4d5ea;
+				border-radius:5px;
+				padding:10px 2px;
+				color: #013467;
+				font-weight: bold;
+				line-height: 17px;
+				filter:alpha(opacity=80);
+				-moz-opacity:0.8;
+				-khtml-opacity: 0.8;
+				opacity: 0.8;
+				text-align: center;
+			}
+
+			@-moz-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-ms-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-webkit-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@-o-keyframes move{
+				from {width:0px}
+				to {width:100px}
+			}
+			@keyframes fade-in {
+				0% {opacity: 0;width:0%;}/*初始状态 透明度为0*/
+
+				100% {opacity: 1;width:100%;}/*结束状态 透明度为1*/
+			}
+			@-moz-keyframes fade-in {/*针对Firefox*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-ms-keyframes fade-in {/*针对IE*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-webkit-keyframes fade-in {/*针对webkit内核*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+			@-o-keyframes fade-in {/*针对Opera*/
+				0% {opacity: 0;width:0%}
+
+				100% {opacity: 1;width:100%;}
+			}
+
+			.xxkindex{ width:522px; height:187px; margin:0 auto; padding-left:50px;}
+			.bqxx{background:url(/index_imager/idxgxs_13.jpg) repeat-x bottom; height:43px; width:498px; }
+			.bqxx a{ background:url(/index_imager/clsymx_11.jpg) no-repeat bottom; width:92px; height:43px; float:left; text-align:center; line-height:35px; color:#535353; text-decoration:none; font-weight:bold;}
+			.bqxx a:hover{ background:url(/index_imager/clsymx_10.jpg) no-repeat bottom !important;  color:#fff !important;}
+
+			.wrap{ margin:0 auto; width:1002px;border-left:2px #0a7aba solid; border-right:2px #0a7aba solid; background:#FFF; font-family:'宋体'; }
+
+			.bqnr{  height:141px; padding-left:17px;}
+			.bqnr a{ width:156px; height:28px; float:left; text-decoration: none; font-size:12px; color:#696969; text-align:center; padding-top:125px;font-family: 宋体;}
+			.bqnr a:hover{ color:#174e78;}
+
+			.xxkindex{ width:522px; height:187px; margin:0 auto; padding-left:50px;}
+
+			.szclyz{ background:url(/index_imager/clsymx_18.jpg2-1.jpg) no-repeat center;}
+			.szclyz:hover{ background:url(/index_imager/clsymxs_18.jpg2-1.jpg) no-repeat center;}
+
+			.cp{ background:url(/index_imager/clsymx_23.jpg) no-repeat center;}
+			.cp:hover{ background:url(/index_imager/clsymxs_23.jpg4-1.jpg) no-repeat center;}
+
+			.szyjp{ background:url(/index_imager/clsymx_21.jpg8-2.jpg) no-repeat center;}
+			.szyjp:hover{ background:url(/index_imager/clsymxs_21.jpg8-2.jpg) no-repeat center;}
+
+			.szclyzs{ background:url(/index_imager/clsymx_18s.jpg) no-repeat center;}
+			.szclyzs:hover{ background:url(/index_imager/clsymxs_18s.jpg) no-repeat center;}
+
+			.cps{ background:url(/index_imager/clsymx_21s.jpg) no-repeat center;}
+			.cps:hover{ background:url(/index_imager/clsymxs_21s.jpg) no-repeat center;}
+
+			.szyjps{ background:url(/index_imager/clsymx_23s.jpg) no-repeat center;}
+			.szyjps:hover{ background:url(/index_imager/clsymxs_23s.jpg) no-repeat center;}
+
+			.szclyzss{ background:url(/index_imager/clsymx_18ss.jpg) no-repeat center;}
+			.szclyzss:hover{ background:url(/index_imager/clsymxs_18ss.jpg) no-repeat center;}
+			.cpss{ background:url(/index_imager/clsymx_21ss.jpg) no-repeat center;}
+			.cpss:hover{ background:url(/index_imager/clsymxs_21ss.jpg) no-repeat center;}
+			.szyjpss{ background:url(/index_imager/clsymx_23ss.jpg) no-repeat center;}
+			.szyjpss:hover{ background:url(/index_imager/clsymxs_23ss.jpg) no-repeat center;}
+
+			.szclyzsss{ background:url(/index_imager/clsymx_18sss.jpg) no-repeat center;}
+			.szclyzsss:hover{ background:url(/index_imager/clsymxs_18sss.jpg) no-repeat center;}
+			.cpsss{ background:url(/index_imager/clsymx_21sss.jpg) no-repeat center;}
+			.cpsss:hover{ background:url(/index_imager/clsymxs_21sss.jpg) no-repeat center;}
+			.szyjpsss{ background:url(/index_imager/clsymx_23sss.jpg) no-repeat center;}
+			.szyjpsss:hover{ background:url(/index_imager/clsymxs_23sss.jpg) no-repeat center;}
+
+
+		</style>
+	</head>
+<body class="body-white">
+<tc_include file="Public:nav" />
+<script>function yjcdys(obj,num)
+{
+
+	var erdhid=obj+num;
+	document.getElementById(erdhid).firstChild.style.color="#fff";
+}
+function yjcdyc(obj,num)
+{
+	var erdhid=obj+num;
+	document.getElementById(erdhid).firstChild.style.color="#1c3140";
+}</script>
+<ul id="homeslider" class="unstyled">
+	<foreach name="home_slides" item="vo">
+	<li>
+		<div class="caption-wraper">
+			<div class="caption">{$vo.slide_name}</div>
+		</div>
+		<a href="{$vo.slide_url}"><img src="{:sp_get_asset_upload_path($vo['slide_pic'])}" alt=""></a>
+	</li>
+	</foreach>
+</ul>
+<div class="container" style="position: relative;">
+	<div  style="background-image:url(/index_imager/002.png) ;background-repeat:no-repeat;height: 553px;margin-bottom: -80px;">
+
+		<div class="row">
+			<div class="span12 offset3">
+		<div class="out" >
+			<ul class="catalog">
+				<li style="margin-right: 14px">
+					<div class="sq-lg">
+						<div class="title">
+							课程学习
+						</div>
+					</div>
+					<p class="title"></p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							导
+						</div>
+					</div>
+					<p class="title">
+						入门篇
+					</p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							学
+						</div>
+					</div>
+					<p class="title">
+						基础测试篇
+					</p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							用
+						</div>
+					</div>
+					<p class="title">
+						工程测量篇
+					</p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							练
+						</div>
+					</div>
+					<p class="title">
+						实践篇
+					</p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							辅
+						</div>
+					</div>
+					<p class="title">
+						导前辅导篇
+					</p>
+				</li>
+				<li style="margin-right: 0px;">
+					<div>
+						<div class="title">
+							评
+						</div>
+					</div>
+					<p class="title">
+						测评篇
+					</p>
+				</li>
+			</ul>
+		</div>
+		</div>
+		</div>
+
+	<div class="row"  style="background-image:url(/index_imager/底框.png) ;background-repeat:no-repeat;position: absolute;left:30px;bottom: 50px;width: 240px;height: 187px;">
+		<div class="span3" style="width: 164px;height: 120px;margin-left: 41px;margin-top: 18px;">
+			<h4 class="font-large nospace" style="color: #013467;text-align: center;font-size: 15px;"><strong>课程简介</strong></h4>
+			<a href="#" style="font-size: 12px;line-height: 24px;text-decoration: none;font-family: 新宋体;color: #000;">　《工程测量》是土木工程专业的技术基础课程，为土木工程专业后续各门专业课程的学习提供基础。</a>
+		</div>
+
+	</div>
+
+		<div class="row"  style="background-image:url(/index_imager/背景框.png) ;background-repeat:no-repeat;position: absolute;left:280px;bottom: 50px;width: 501px;height: 187px;">
+			<div class="span6" style="margin-left: -48px;">
+				<div class="xxkindex">
+					<div class="bqxx" id="bqxx">
+						<a href="#" id="xxk1" onclick="xxnrys('nr',1,'bqxx','xxk')" style="color: rgb(255, 255, 255); background: url(/index_imager/clsymx_10.jpg) center bottom no-repeat;">玩中学</a>
+						<a href="#" id="xxk2" onclick="xxnrys('nr',2,'bqxx','xxk')">教师讲堂</a>
+						<a href="#" id="xxk3" onclick="xxnrys('nr',3,'bqxx','xxk')">经典案例</a>
+						<a href="#" id="xxk4" onclick="xxnrys('nr',4,'bqxx','xxk')">动画集锦</a>
+						<div style="clear:both"></div></div>
+					<div class="bqnr" id="nr1">
+						<a href="kcxx/frame7.html" class="szclyzs">水准测量模拟实验</a>
+						<a href="kcxx/frame8.html" class="cps">点位放样</a>
+						<a href="kcxx/frame9.html" class="szyjps">水平角观测模拟实验</a>
+					</div>
+					<div class="bqnr" id="nr2" style="display:none;">
+						<a href="kcxx/frame10.html" class="szclyz">测量的基准面</a>
+						<a href="kcxx/frame11.html" class="cp" title="角度测量原理与经纬仪的结构">角度测量原理与经…</a>
+						<a href="kcxx/frame12.html" class="szyjp">GNSS定位基本原理</a>
+					</div>
+					<div class="bqnr" id="nr3" style="display:none;">
+						<a href="zhlx/frame4.html" class="szclyzss">道路园曲线放样</a>
+						<a href="zhlx/frame5.html" class="cpss" title="建筑物定位放样和地坪标高测设">建筑物定位放样和地…</a>
+						<a href="zhlx/frame6.html" class="szyjpss">桥墩放样</a>
+					</div>
+					<div class="bqnr" id="nr4" style="display:none;">
+						<a href="zylb/frame9.html" class="szclyzsss">水准仪的精确整平</a>
+						<a href="zylb/frame10.html" class="cpsss">水平角测量原理</a>
+						<a href="zylb/frame11.html" class="szyjpsss">脉冲法测距原理</a>
+					</div>
+				</div>
+			</div>
+			<script>
+				function xxnrys(nrobj,num,objz,xxkobj)
+				{
+					var xxknum=document.getElementById(objz).getElementsByTagName('a').length;
+					for(i=1;i<xxknum+1; i++)
+					{
+						var nrid=nrobj+i;
+						var xxkid=xxkobj+i;
+						if(i==num)
+						{
+							document.getElementById(xxkid).style.background="url(/index_imager/clsymx_10.jpg) no-repeat bottom";
+							document.getElementById(xxkid).style.color="#fff";
+							document.getElementById(nrid).style.display="block";
+						}
+						else
+						{
+							document.getElementById(xxkid).style.background="url(/index_imager/clsymx_11.jpg) no-repeat bottom";
+							document.getElementById(xxkid).style.color="#535353";
+							document.getElementById(nrid).style.display="none";
+						}
+					}
+				}
+			</script>
+		</div>
+		<div class="row"  style="background-image:url(/index_imager/课程负责人.png) ;background-repeat:no-repeat;position: absolute;left:795px;bottom: 50px;width: 210px;height: 187px;">
+			<div class="span3">
+				<li class="font-large nospace" style="color: #013467;list-style:none;font-size: 15px;"><strong>课程负责人</strong></li>
+				<div class="media" style="margin-left: -11px;">
+					<div class="pull-left" href="#">
+						<img  class="media-object" src="index_imager/111.png" /></div>
+					<div class="media-body" style="overflow: hidden;width: 80px;height: 121px;">
+						<a href="#" style="font-size: 13px;text-decoration:none;color: #000;width: 80px;height: 100px;overflow: hidden;letter-spacing: 1px;font-family: 新宋体">　  曾永年，男，教授，中国测绘学会地图学与GIS专业委员会委员...</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+<!--
+	<div>
+		<h1 class="text-center">最新资讯</h1>
+		<h3 class="text-center">Last News</h3>
+	</div>
+	<php>
+		$lastnews=sp_sql_posts("cid:$portal_index_lastnews;field:post_title,post_excerpt,tid,smeta;order:listorder asc;limit:4;");
+	</php>
+	<div class="row">
+		<foreach name="lastnews" item="vo">
+		<php>$smeta=json_decode($vo['smeta'],true);</php>
+		<div class="span3">
+			<div class="tc-gridbox">
+				<div class="header">
+					<div class="item-image">
+						<a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">
+							<if condition="empty($smeta['thumb'])">
+								<img src="__TMPL__Public/images/default_tupian1.png" class="img-responsive" alt="{$vo.post_title}"/>
+							<else />
+								<img src="{:sp_get_asset_upload_path($smeta['thumb'])}" class="img-responsive img-thumbnail" alt="{$vo.post_title}" />
+							</if>
+						</a>
+					</div>
+					<h3><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">{$vo.post_title}</a></h3>
+					<hr>
+				</div>
+				<div class="body">
+					<p><a href="{:leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']))}">{:msubstr($vo['post_excerpt'],0,32)}</a></p>
+				</div>
+			</div>
+		</div>
+		</foreach>
+	</div>-->
+
+</div><tc_include file="Public:footer-index"/>
+</div>
+<tc_include file="Public:scripts"/>
+<script src="__TMPL__Public/js/slippry.min.js"></script>
+<script>
+$(function() {
+	var demo1 = $("#homeslider").slippry({
+		transition: 'fade',
+		useCSS: true,
+		captions: false,
+		speed: 1000,
+		pause: 3000,
+		auto: true,
+		preload: 'visible'
+	});
+});
+</script>
+{:hook('footer_end')}
+</body>
+</html>

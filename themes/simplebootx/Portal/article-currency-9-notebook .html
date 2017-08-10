@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="__TMPL__Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/assets/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/assets/js/16sucai.js"></script>
+	<script type="text/javascript" language="javascript" src="__TMPL__Public/assets/js/jump.js"></script>
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+		 .xxbgcon p{margin-bottom: 0px;!important;}
+	</style>
+
+
+	<tc_include file="Public:head" />
+</head>
+<body style=" background:#c5e9fe;">
+<div class="container" style="margin-bottom: -60px;">
+
+
+
+
+
+				<div class="kjmainright">
+					<div style="width:753px;">
+						<div class="kjrightzjs">
+							<div class="kjrighttopjs">
+								<div class="kjrightbottomjs">
+									<div style=" width:702px;">
+										<div class="mbx" style="border-bottom: solid #e4e4e4 1px;">
+											<h1>{$post_title}</h1>
+											<span>当前位置：{$post_excerpt} >>{$post_title} </span>
+											<div style="clear:both;"></div></div>
+										<div style="padding-bottom:55px; padding-top:10px;">
+											<div class="zstzmain" style="margin-bottom:0px;">
+												<div class="xxbgtop"></div>
+												<div class="xxbgmain">
+													<div class="xxbgcon-notebook" id="myid">
+														{$post_content}
+														<div style="clear:both"></div>
+													</div>
+													<script>
+														document.querySelector('#myid a').setAttribute('target','_blank')
+													</script>
+													<div class="xxbgbottom"></div>
+												</div>
+											</div>
+
+										</div>
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<div style="clear:both"></div>
+		</div>
+
+	</div>
+</div>
+</div>
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+</body>
+<<script>
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+<script>
+	$("div a").attr("target","_black");</script>
+</html>

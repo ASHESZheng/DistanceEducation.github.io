@@ -1,0 +1,367 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo ($name); ?> <?php echo ($seo_title); ?> <?php echo ($site_name); ?></title>
+	<meta name="keywords" content="<?php echo ($seo_keywords); ?>" />
+	<meta name="description" content="<?php echo ($seo_description); ?>">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/16sucai.js"></script>
+
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+	</style>
+		<?php  function _sp_helloworld(){ echo "hello ThinkCMF!"; } function _sp_helloworld2(){ echo "hello ThinkCMF2!"; } function _sp_helloworld3(){ echo "hello ThinkCMF3!"; } ?>
+	<?php $portal_index_lastnews="2"; $portal_hot_articles="1,2"; $portal_last_post="1,2"; $tmpl=sp_get_theme_path(); $default_home_slides=array( array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/1.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/2.jpg", "slide_url"=>"", ), array( "slide_name"=>"ThinkCMFX2.1.0发布啦！", "slide_pic"=>$tmpl."Public/images/demo/3.jpg", "slide_url"=>"", ), ); ?>
+	<meta name="author" content="ThinkCMF">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+   	<!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+	<link rel="icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link href="/themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+	<link href="/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+	<style>
+		/*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+		#backtotop{position: fixed;bottom: 50px;right:20px;display: none;cursor: pointer;font-size: 50px;z-index: 9999;}
+		#backtotop:hover{color:#333}
+		#main-menu-user li.user{display: none}
+		.container{
+			min-width: 1000px;
+			max-width: 1000px;
+		}
+		body{
+			min-width:1000px;
+			max-width: 1000px;
+			margin: auto;
+		}
+	</style>
+	
+</head>
+<body style=" background:#c5e9fe;">
+<?php echo hook('body_start');?>
+<style>
+
+    .ejkjtop{ height:155px;}
+    .kjtop{margin-top: -114px; background-image: url(/list_imager/kcxx_01.jpg);no-repeat; height:104px;}
+    .kjtopname{    margin-right: 135px;}
+    .kjtopname li{ float:right; padding-top:10px; font-weight:bold; color:#FFF; list-style-type:none;line-height:26px;  font-size:14px; padding-right:8px; letter-spacing:3px;}
+    .kjtopname a{ text-decoration:none; color:#FFF; font-size:13px;}
+    .kjtipdh{ background:url(/list_imager/kcxx_02.jpg) no-repeat; height:51px;margin-left:-19px;margin-top:104px;}
+
+    .dhnav{list-style:none; margin:0; padding:0; margin:0 auto; width:946px;}
+    .dhnav li{ float:right; line-height:51px; font-size:14px; font-weight:bold;}
+    .dhnav li a{ text-decoration:none; color:#fff; display:block; width:94px;text-align:center; cursor:pointer;}
+    .dhnav li a:hover{ color:#000; background:url(/list_imager/dh2_03.png)}
+
+</style>
+<div class="navbar navbar-static-top"style="border-left: 2px #0a7aba solid;
+        border-right: 2px #0a7aba solid;width: 1000px;">
+   <div class="navbar-inner" >
+     <div class="container kjtipdh">
+         <div class="kjtop">
+             <?php
+ $effected_id="cat-nav"; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="kjtopname"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("2",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel, $dropdown); ?>
+         </div>
+       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </a>
+
+       <div class="nav-collapse collapse" id="main-menu">
+
+        <?php
+ $effected_id="main-menu"; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="dhnav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("1",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
+           <div  class="dhnav">
+               <li>
+                   <a href="<?php echo U('index/index');?>">首页</a>
+               </li>
+           </div>
+
+       </div>
+     </div>
+   </div>
+ </div>
+<div class="container" style="margin-bottom: -80px;">
+	<div class="wrap">
+		<div class="ejkjmain">
+			<div class="kjmainz">
+				<div class="kjmainleft">
+					<div class="lefttop">
+						<div class="leftbottom">
+							<div class="leftmain">
+								<div class="leftcdbj">
+									<div class="menu_list ercd" id="firstpane" >
+										<p class="menu_head"><?php echo sp_get_term('12')['name'];?></p><!--学前指导-->
+										<div class="menu_body "> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php $lists = sp_sql_posts_paged("cid:12;order:post_date DESC;",17); ?>
+											<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+												<li onclick="changebj(aa);">
+													<a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><?php echo ($vo["post_title"]); ?></a>
+												</li><?php endforeach; endif; else: echo "" ;endif; ?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head"><?php echo sp_get_term('13')['name'];?></p><!--导：入门篇-->
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+ $effected_id="main-menu"; $filetpl="<a href='\$href' target='main'>\$label</a>"; $foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="fournav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("5",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head"><?php echo sp_get_term('14')['name'];?></p><!--学：基础测试篇-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+ $effected_id="main-menu"; $filetpl="<a href='\$href' target='main'>\$label</a>"; $foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="fournav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("6",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head"><?php echo sp_get_term('15')['name'];?></p><!--用：工程测量拍-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php
+ $effected_id="main-menu"; $filetpl="<a href='\$href' target='main'>\$label</a>"; $foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="fournav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("7",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?><img src="/list_imager/ejcd_07.jpg" /> </div>
+										<p class="menu_head"><?php echo sp_get_term('16')['name'];?></p><!--练：实践篇-->
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											  <?php $lists = sp_sql_posts_paged("cid:16;order:post_date DESC;",17); ?>
+											<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+												<li onclick="changebj(aa);">
+													<a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><?php echo ($vo["post_title"]); ?></a>
+												</li><?php endforeach; endif; else: echo "" ;endif; ?>
+											<?php
+ $effected_id="main-menu"; $filetpl="<a href='\$href' target='main'>\$label</a>"; $foldertpl="<a href='\$href' target='main' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="fournav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("8",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
+											<img src="/list_imager/ejcd_07.jpg" /></div>
+										<p class="menu_head"><?php echo sp_get_term('17')['name'];?></p><!--辅：考前辅导篇-->
+										<div class="menu_body"> <img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php $lists = sp_sql_posts_paged("cid:17;order:post_date DESC;",17); ?>
+											<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+												<li onclick="changebj(aa);">
+													<a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><?php echo ($vo["post_title"]); ?></a>
+												</li><?php endforeach; endif; else: echo "" ;endif; ?><img src="/list_imager/ejcd_07.jpg" /> </div>
+										<p class="menu_head"><?php echo sp_get_term('18')['name'];?></p><!--评：测评篇-->
+										<div class="menu_body"><img src="/list_imager/ejcd_03.jpg" style=" margin-top: -10px;">
+											<?php $lists = sp_sql_posts_paged("cid:18;order:post_date DESC;",17); ?>
+											<?php if(is_array($lists['posts'])): $i = 0; $__LIST__ = $lists['posts'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $smeta=json_decode($vo['smeta'], true); ?>
+												<li onclick="changebj(aa);">
+													<a href="<?php echo leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']));?>" title="<?php echo ($vo["post_title"]); ?>" target="main"><?php echo ($vo["post_title"]); ?></a>
+												</li><?php endforeach; endif; else: echo "" ;endif; ?><img src="/list_imager/ejcd_07.jpg" /> </div>
+
+</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="kjmainright">
+					<iframe src=""  id="main" name="main" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resize()" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+    <br>
+<br>
+<br>
+<!-- Footer ================================================== -->
+<style>
+	.ejkjbottom {
+		background: url(/list_imager/kcxx2_21.jpg);
+background: #e5e5e5;
+		height: 38px;
+		line-height: 38px;
+		text-align: center;
+		color: #696969;
+		border-top: solid 2px #7792af;
+		border-left: 2px #0a7aba solid;
+		border-right: 2px #0a7aba solid;
+		width: 1000px;
+	}
+</style>
+<?php echo hook('footer');?>
+<div id="footer" >
+	<div class="links">
+		<?php $links=sp_getlinks(); ?>
+		<?php if(is_array($links)): foreach($links as $key=>$vo): ?><a href="<?php echo ($vo["link_url"]); ?>" target="<?php echo ($vo["link_target"]); ?>"><?php echo ($vo["link_name"]); ?></a><?php endforeach; endif; ?>
+	</div>
+	<div class="ejkjbottom">
+			版权所有：XXX大学网络教育学院
+		</div>
+</div>
+<div id="backtotop">
+	<i class="fa fa-arrow-circle-up"></i>
+</div>
+<?php echo ($site_tongji); ?>
+
+<!-- JavaScript -->
+<script type="text/javascript">
+//全局变量
+var GV = {
+    DIMAUB: "/",
+    JS_ROOT: "public/js/",
+    TOKEN: ""
+};
+</script>
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/js/wind.js"></script>
+    <script src="/themes/simplebootx/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/js/frontend.js"></script>
+	<script>
+	$(function(){
+		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
+		
+		$("#main-menu li.dropdown").hover(function(){
+			$(this).addClass("open");
+		},function(){
+			$(this).removeClass("open");
+		});
+		
+		$.post("<?php echo U('user/index/is_login');?>",{},function(data){
+			if(data.status==1){
+				if(data.user.avatar){
+					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"/data/upload/avatar/"+data.user.avatar);
+				}
+				
+				$("#main-menu-user .user-nicename").text(data.user.user_nicename!=""?data.user.user_nicename:data.user.user_login);
+				$("#main-menu-user li.login").show();
+				
+			}
+			if(data.status==0){
+				$("#main-menu-user li.offline").show();
+			}
+			
+		});	
+		;(function($){
+			$.fn.totop=function(opt){
+				var scrolling=false;
+				return this.each(function(){
+					var $this=$(this);
+					$(window).scroll(function(){
+						if(!scrolling){
+							var sd=$(window).scrollTop();
+							if(sd>100){
+								$this.fadeIn();
+							}else{
+								$this.fadeOut();
+							}
+						}
+					});
+					
+					$this.click(function(){
+						scrolling=true;
+						$('html, body').animate({
+							scrollTop : 0
+						}, 500,function(){
+							scrolling=false;
+							$this.fadeOut();
+						});
+					});
+				});
+			};
+		})(jQuery); 
+		
+		$("#backtotop").totop();
+		
+		
+	});
+	</script>
+
+
+</body>
+<!--<script>
+	document.getElementById('dh4').firstChild.style.background="url(/list_imager/dh2_03.png) no-repeat center";
+	document.getElementById('dh4').firstChild.style.color="#000";
+	var isIE=!!window.ActiveXObject;
+	var isIE6=isIE&&!window.XMLHttpRequest;
+	if(isIE6==true)
+	{
+		document.getElementById('dh4').firstChild.style.background="none";
+		document.getElementById('dh4').firstChild.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='/list_imager/dh2_03.png')";
+	}
+</script>-->
+<script>
+	function changebj(obj,objs,num)
+	{
+		var dhz=document.getElementById(obj);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli; i++)
+		{
+			var bjid=objs+i;
+			if(i==num)
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/kcxx_27.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#fff";
+			}
+			else
+			{
+				document.getElementById(bjid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+				document.getElementById(bjid).style.color="#034c89";
+			}
+		}
+		resize()
+	}</script>
+<script >
+	function kcxxser(obj,num,objz,erobj,ernum,nums,iserji,erlinum)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('li').length;
+		for(i=0; i<dhli-erlinum; i++)
+		{
+			var aa=erobj+i;
+			var changeid=obj+i;
+			if(i==num)
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_24.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#686868";
+				document.getElementById(aa).style.display="block";
+			}
+			else
+			{
+				document.getElementById(changeid).firstChild.style.background="url(/list_imager/kcxx_21.jpg) no-repeat center";
+				document.getElementById(changeid).firstChild.style.color="#034c89";
+				document.getElementById(aa).style.display="none";
+				if(iserji==0)
+				{
+					for(j=0; j<nums; j++)
+					{
+						var erid=ernum+j;
+						document.getElementById(erid).style.background="url(/list_imager/left2_21.jpg) no-repeat center";
+						document.getElementById(erid).style.color="#034c89";
+					}
+				}
+			}
+		}
+	}
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+	function resizeab()
+	{
+		document.getElementById("sjmain").height=0;
+		document.getElementById("sjmain").height=document.getElementById("sjmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+</html>

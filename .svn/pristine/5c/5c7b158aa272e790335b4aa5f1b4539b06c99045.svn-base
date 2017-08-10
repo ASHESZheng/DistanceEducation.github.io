@@ -1,0 +1,1160 @@
+[ 2016-10-09T08:21:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001115s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000529s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001076s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000911s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000909s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000883s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000808s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000848s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002791s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001030s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000996s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:51+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000937s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:21:51+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000872s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:36:58+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002013s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005265s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:37:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000498s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:39:30+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000789s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:40:19+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001336s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005081s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:40:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001477s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004027s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:41:04+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001038s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:41:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001226s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:49:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001082s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:51:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000814s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:51:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001902s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004208s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:51:07+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003308s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:51:47+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:51:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:52:03+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000599s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:52:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001287s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003223s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:52:12+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000557s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:53:16+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000658s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:54:52+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001256s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003897s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:55:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000883s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:10+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003052s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008070s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:11+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002033s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:12+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002407s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005277s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:18+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001996s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004895s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:20+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000894s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:57:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001881s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005417s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T08:58:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003156s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004773s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006961s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010239s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003271s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005367s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000890s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000868s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:24+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000950s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001099s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000883s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:26+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000762s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001740s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:03:28+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000859s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:36+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001003s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:36+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000751s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000798s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001276s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003795s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:37+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000881s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:05:38+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001250s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003096s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:16:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000535s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:16:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000869s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:16:58+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001036s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:19:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000880s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004191s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:19:24+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002162s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:19:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001021s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:20:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000697s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:21:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000984s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:21:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001052s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:21:16+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000484s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:21:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000768s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:21:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000546s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:23:14+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000574s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:24:30+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001545s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:24:34+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000885s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:24:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000843s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:24:53+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000754s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000488s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:14+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000486s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000826s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000960s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003490s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000962s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:30+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000978s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:31+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000933s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:31+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000875s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000920s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000816s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:33+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000884s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:25:33+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001651s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:26:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000480s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:26:03+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000897s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:26:03+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000906s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:26:04+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000846s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:26:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000990s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:29:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000553s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:31:04+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002250s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:32:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000916s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:32:10+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001083s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:32:11+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000942s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:33:58+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001594s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004508s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:34:46+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000980s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:36:05+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000950s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:36:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001854s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004076s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:36:07+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003377s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005613s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:36:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000781s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:38:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001160s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:39:04+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006029s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008419s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:39:23+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000449s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:39:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001214s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:40:02+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000904s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:40:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:48:14+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001012s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:48:26+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001095s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:48:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001439s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:48:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000739s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T09:53:02+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000873s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:36+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000631s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:38+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000574s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:39+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000673s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:40+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000621s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:40+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000636s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000753s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000635s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000640s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:50+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000446s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:52+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000483s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:00:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000482s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:01:09+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000695s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:10:18+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001785s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006166s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:10:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002841s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:11:13+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000873s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:11:19+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000831s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:11:43+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001130s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:11:44+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000507s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:13:54+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001918s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003694s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:14:32+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002133s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003857s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:16:59+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002139s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005220s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:17:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000735s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:17:21+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002225s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005995s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:17:22+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000693s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:19:03+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001035s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005052s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:21:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000856s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:25:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001988s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003872s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:25:25+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001151s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:25:27+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001856s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003632s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:25:29+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001099s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:25:33+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001752s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:26:30+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001221s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:26:31+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001282s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2016-10-09T10:26:34+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000738s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+NOTIC: [8] Undefined index: url D:\WORK2\application\Common\Controller\AppframeController.class.php 第 22 行.
+

@@ -1,0 +1,59 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif; }
+table{border-collapse:collapse;border-spacing:0;}
+
+#slide-box {
+	MARGIN: 20px auto; WIDTH: 627px; POSITION: relative; HEIGHT: 877px
+}
+#slide-box .corner {
+	CLEAR: both; BORDER-TOP: #617795 1px solid; DISPLAY: block; MARGIN: 0px 1px; OVERFLOW: hidden; HEIGHT: 0px
+}
+#slide-box .slide-content {
+	BACKGROUND: #617795
+}
+#slide-box .ks-switchable-triggers A {
+	DISPLAY: block;
+	Z-INDEX: 99;
+	WIDTH: 37px;
+	COLOR: #daf4fe;
+	POSITION: absolute;
+	TOP: 397px;
+	HEIGHT: 65px;
+	TEXT-DECORATION: none
+}
+#slide-box .ks-switchable-triggers SPAN {
+	DISPLAY: block; BACKGROUND: #7b7b7b; FONT: 700 53px/57px arial; WIDTH: 37px; CURSOR: pointer; HEIGHT: 63px; TEXT-ALIGN: center
+}
+#slide-box .ks-switchable-triggers .corner {
+	BORDER-LEFT-COLOR: #7b7b7b; BORDER-BOTTOM-COLOR: #7b7b7b; BORDER-TOP-COLOR: #7b7b7b; BORDER-RIGHT-COLOR: #7b7b7b
+}
+#slide-box .ks-switchable-triggers .prev {
+	LEFT: -10px
+}
+#slide-box .ks-switchable-triggers .next {
+	RIGHT: -11px
+}
+#slide-box .ks-switchable-triggers A:hover {
+	COLOR: #0075d4
+}
+#slide-box .ks-switchable-triggers A:hover SPAN {
+	COLOR: #0075d4
+}
+#slide-box .slide-content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#slide-box .wrap {
+	OVERFLOW: hidden; WIDTH: 605px; HEIGHT: 817px
+}
+#slide-box UL {
+	WIDTH: 30000px
+}
+#slide-box LI {
+	FLOAT: left; WIDTH: 615px; HEIGHT: 817px
+}
+#slide-box LI IMG {
+	WIDTH: 605px; HEIGHT: 817px
+}

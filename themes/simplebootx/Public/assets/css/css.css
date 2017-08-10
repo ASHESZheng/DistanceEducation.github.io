@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+	/*margin: 0px;*/
+	padding: 0px;
+	background-color:#BBD6F0;
+}
+
+
+.bottom{
+background-color:#c2c2c2;
+font-size:12px;
+color:#202020;
+}
+.nav-on{font-size:14px; height:25px; line-height:25px; background:url(/list_imager/sbcl_17.jpg) no-repeat left; cursor:pointer;color:#fff;padding-left:10px;}
+.nav-on span{font-size:14px; height:25px; line-height:25px; background:url(/list_imager/sbcl_17.jpg) no-repeat right; cursor:pointer;color:#fff;padding-right:10px;}
+
+.nav-off{font-size:14px; height:25px; line-height:25px; color:#000; cursor:pointer;padding-left:10px;}
+.nav-off span{font-size:14px; height:25px; line-height:25px; color:#000; cursor:pointer;padding-right:10px;}
+.nav2-on{width:150px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl2_09.jpg); cursor:pointer;color:#fff;}
+.nav2-off{width:150px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl2_11.jpg); color:#683d0b; cursor:pointer;}
+.nav3-on{width:118px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl3_09.jpg); cursor:pointer;color:#fff;}
+.nav3-off{width:118px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl3_11.jpg); color:#683d0b; cursor:pointer;}
+.nav4-on{width:102px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl4_09.jpg); cursor:pointer;color:#fff;}
+.nav4-off{width:102px; font-size:12px; height:25px; line-height:25px; background:url(/list_imager/sbcl4_11.jpg); color:#683d0b; cursor:pointer;}
+.erji{
+	position:absolute;
+	z-index:3;
+	font-size:12px;
+	color:#42a191;
+	width:100%;
+	margin:6px 0px 0px 0px;
+	text-align:left;
+	visibility:hidden;
+}
+.erji a,.erji a:link,#erji a:visited{
+font-size:12px;
+color:#42a191;
+text-decoration:none;
+}
+.erji a:hover{
+font-size:12px;
+color:#0e6b98;
+text-decoration:underline;
+}
+/*.erji span{
+font-size:12px;
+color:#FFFFFF;
+margin:0px 70px 0px 55px;
+float:left;
+}*/
+.erji span{
+font-size:12px;
+color:#FFFFFF;
+margin:0px 10px 0px 0px;
+text-align:center;
+display:block;width:161px;
+float:left;
+}
+.spclxz{ position:absolute; top:0; right:0;}

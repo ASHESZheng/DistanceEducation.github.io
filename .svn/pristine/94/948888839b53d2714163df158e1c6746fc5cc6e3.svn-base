@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<tc_include file="Public:head" />
+	<style>
+	td li{ border-left:1px solid #B7D0E4; list-style: none;margin-left: 10px;padding-left: 10px;}
+	 td li:first-child{ border-left:none}
+
+	</style>
+</head>
+<body>
+<tc_include file="Public:nav-off" />
+<div class="container tc-main">
+
+
+	<div class="pg-opt pin">
+		<table width="1000" border="0" cellspacing="0" cellpadding="0" height="25px">
+			<tr>
+				<td width="160" background="/list_imager/sbcl_23.jpg"   bgcolor="#e1e1e1">
+					<div style="color:#fff;text-align: center;">
+						{:sp_get_term($term_id)['name']}
+					</div>
+				</td>
+				<td bgcolor="#e1e1e1">&nbsp;
+					<php>
+					$lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",10);
+				</php>
+					<volist name="lists['posts']" id="vo">
+						<php>
+							$smeta=json_decode($vo['smeta'], true);
+						</php>
+						<li style="float: left;">
+							<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main" style="color: #42a191">{$vo.post_title}</a>
+						</li>
+					</volist>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<iframe src=""  id="main" name="main" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resize()" marginheight="0" marginwidth="0"></iframe>
+
+
+
+
+	<tc_include file="Public:footer-list" />
+</div>
+
+
+<!-- JavaScript -->
+<tc_include file="Public:scripts" />
+<script>
+
+	function resize()
+	{
+		document.getElementById("main").height=0;
+		document.getElementById("main").height=document.getElementById("main").contentWindow.document.body.scrollHeight;
+	}
+</script>
+</body>
+</html>

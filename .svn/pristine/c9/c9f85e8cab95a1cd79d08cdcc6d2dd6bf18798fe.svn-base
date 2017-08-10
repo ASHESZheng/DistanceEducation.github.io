@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css"  rel="stylesheet" type="text/css" /><script type="text/javascript" language="javascript" src="/themes/simplebootx/Public/js/test.js"></script>
+
+	<script language="javascript">
+		var finishSco = false;
+		var multSCO = false;
+		//继续学习依据，按页：page；按时间position
+		var goonStudyWith = "page";
+
+		//多节点每个节点完成时间比例
+		var blockPassK = 0.75;
+
+		//完成准则(只针对单节点)，按累计时长：duration；按内容块：block；
+		var completedRule = "duration";
+		//单节点完成页数占总页数的比例
+		var easyPassTime = 0.8;
+		//单节点按总时间的完成时间比例
+		var totalPassK = 0.8;
+		var commitTime = 5;
+		window.onload = function(){
+			setSCOID("1");
+			loadPage();
+		}
+
+		window.onunload = function(){
+			closeSco();
+		}
+
+		function setStatus()
+		{
+			if(multSCO)
+			{
+				finishSco = true;
+			}
+			else
+			{
+				var preStudyDur = format2Sec(doLMSGetValue("cmi.core.total_time"));
+				var curStudyDur = getThisDur();
+				if((preStudyDur+curStudyDur)>=1200) //学习10分钟算完成
+				{
+					finishSco = true;
+				}
+				else
+				{
+					finishSco = false;
+				}
+			}
+		}
+		function closeSco()
+		{
+			if(exitPageStatus)	return;
+			setStatus();
+			//alert("exitPageStatus exitIE:"+exitIE);
+			//获取
+			var status = doLMSGetValue( "cmi.core.lesson_status" );
+			//alert("status:"+status+" finishSco:"+finishSco);
+			if(status=="completed")
+				return unloadPage('completed');
+			else if(status=="passed")
+				return unloadPage('passed');
+			else
+			{
+				if( finishSco==false)
+				{
+					return unloadPage('incomplete');
+				}
+				else if(finishSco == true)
+				{
+					return unloadPage('completed');
+				}
+			}
+		}
+		function format2Sec(str)
+		{
+			var sec=0;
+			if(str.indexOf(":")>=0)
+			{
+				abc = str.split(":");
+				sec = Number(abc[0])*3600+Number(abc[1])*60+Number(abc[2]);
+			}
+			return sec;
+		}
+
+	</script>
+	<script type="text/javascript">
+		var checked=false;
+		var totalQ =18;
+		var totalW =0;
+		var prePauseTime = 5000;
+		var rightNum=0;
+		var tempID;
+		var checkModel = 0;
+	</script>
+	<style>
+.kjmainright{ float:left; width:753px;}
+.wrap{ margin:0 auto; width:1002px;border-left:2px #0a7aba solid; border-right:2px #0a7aba solid; background:#FFF; font-family:'宋体'; }
+.kjrightzjs{ background:url(/article-imager/ksdws_06.jpg)}
+.kjrighttopjs{ background:url(/article-imager/ksdws_03.jpg) no-repeat top;}
+.kjrightbottomjs{ background:url(/article-imager/ksdws_07.jpg) no-repeat bottom; }
+.mbx h1{ margin:0 auto; font-size:14px; line-height:36px; background:url(/article-imager/kcxx_09.jpg) no-repeat left 10px; padding-left:20px; margin-left:10px; _margin-left:5px; float:left;}
+.mbx span{ float:right; font-size:12px; line-height:36px; padding-right:10px;}
+.mbx{ /*border-bottom:solid #e4e4e4 1px;*/ width:745px; margin:0 auto; margin-bottom:15px; height:36px; overflow:hidden;}
+.kcxxrtcon{ width:722px; margin:5px auto; overflow:hidden; padding-top:10px; margin-bottom:0px; /*font-size:12px; line-height:24px;*/}
+.xxmbtop{ background:url(/article-imager/kcgsxx_06.jpg) no-repeat top;}
+.xxmbbottom{ background:url(/article-imager/kcgsxx_11.jpg) no-repeat bottom; }
+.xxmbcon{ padding:50px; font-size:12px; line-height:24px;}
+.xxmbbt{ font-size:16px; text-align: center; font-weight:bold;}
+.kjmainz{ /*min-height:809px; _height:809px;*/ width:972px; margin:0 auto; padding-bottom:20px;}
+.xxmbmain{ background:url(/article-imager/kcgsxx_09.jpg);width:680px; margin:0 auto; margin-top:10px; margin-bottom:50px;}
+.rightz{ background:url(/article-imager/kjrights_03.jpg);}
+.rightcon{ background:url(/article-imager/kjrights_05.jpg) no-repeat bottom; line-height:24px;}
+
+.topbj{ background:url(/article-imager/kspzsy_04.jpg) repeat-x;}
+.leftbj{ background:url(/article-imager/kspzsy_08.jpg) repeat-y;}
+.rightbj{ background:url(/article-imager/kspzsy_10.jpg) repeat-y;}
+.bottombj{ background:url(/article-imager/kspzsy_14.jpg)repeat-x;}
+.dsppt{background:url(/article-imager/kspzsy_16.jpg) no-repeat center; height:26px; text-align:center; padding-top:23px; color:#404040; font-size:14px; font-weight:bold;}
+
+.xxbgtop{ background:url(/article-imager/zstz_06.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_06.jpg*/ no-repeat; height:71px;}
+.xxbgmain{ background:url( /article-imager/zstz_20.jpg);font-size: 12px;}
+.xxbgbottom{ background:url(/article-imager/zstz_21.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_21.jpg*/ no-repeat; height:127px;}
+.conwz{ background:url(/article-imager/zstz_15.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_15.jpg*/ no-repeat left; float:left; padding-left:20px;}
+.xxbgcon a{ float:right; background:url(/article-imager/zstz_10.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_10.jpg*/ no-repeat center; width:69px; height:30px; margin-right:10px; text-decoration:none; color:#000000; text-align:center;}
+.xxbgcon a:hover{ background:url(/article-imager/zstz_12.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zstz_12.jpg*/ no-repeat center; color:#004e9d;}
+.xxbgcon{ line-height:30px; width:555px; margin:0 auto; cursor:pointer;}
+
+.rightz{ background:url(/article-imager/kjrights_03.jpg);}
+.rightcon{ background:url(/article-imager/kjrights_05.jpg) no-repeat bottom; line-height:24px;}
+.xgsyright{ float:left; width:590px; line-height:24px;}
+.xgsycon{ padding:30px 15px 15px 15px;}
+.xgsyleft{ width:124px; background:url(/article-imager/xgsys_03.jpg) no-repeat top left; padding-top:30px; float:left; height:307px; padding-bottom:30px;}
+.xgsyleft a,.xgsylefts a{ display:block; float:left; background:url(/article-imager/xgsyej_12.jpg) no-repeat center; width:100px; height:34px; text-decoration: none; padding-left:15px; line-height:34px; color:#424224;}
+.xgsylefts{ width:124px; background:url(/article-imager/xgsysa_03.jpg) no-repeat top left; padding-top:20px; float:left; padding-bottom:20px; margin-bottom:60px;}
+.xgsyleft a:hover,.xgsylefts a:hover{ background:url(/article-imager/xgsyej_10.jpg) no-repeat center !important; color:#fff !important; }
+
+.zhlxtm{ background:url(zhlx_06.jpg)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/images/zhlx_06.jpg*/ no-repeat left;height:42px;}
+.zhlxtm span{ font-size:12px; background:#e5f0f9; margin-left:40px; _margin-left:20px; display:block; margin-top:15px; float:left; padding:0 15px; line-height:24px;}
+.ti{
+	width:698px;
++width:700px;
+
+	/*border:1px solid #d3b24f;
+    border-top:0px;*/
+	color:#000;
+	padding-bottom:9px;
+	font-size:12px;
+}
+.ti form{
+	margin:0 15px;}
+.gap1{
+	margin-top:25px;
+	margin-bottom:43px;
+}
+.mnsj-line{
+	/*height:30px;*/
+	line-height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#000;
+	text-align:left;
+}
+.mnsj2{
+	/*background:#F1F9FF ;*/
+	/*padding:0 10px;*/
+	margin:0 0 5px;
+	text-align:left;
+	color:#5e5e5e;
+}
+.fctl{
+	font-size:12px;
+	float:right;
+	height:20px;
+	display:none;
+	padding-right:20px;
+}
+.tjbtn{width:76px;height:26px;}
+.tjbtn a{ float: left;width:76px;height:26px; background:url(/article-imager/bzzc_13.gif)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/images/bzzc_13.gif*/ no-repeat; line-height:26px; font-size:12px; color:#fff; font-weight:bold; text-align:center; text-decoration:none;}
+.tjbtn a:link{ background:url(/article-imager/bzzc_13.gif)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/images/bzzc_13.gif*/ no-repeat;}
+.tjbtn a:hover{ background:url(/article-imager/bzzc_11.gif)/*tpa=http://csugccl.lms.webtrn.cn/courseshow/gccl/NORMAL/kcxx/images/bzzc_11.gif*/ no-repeat;}
+.dnk{position:absolute;bottom:100px; left:50%; margin-left:-150px; display:none;}
+
+	</style>
+</head>
+
+<body>
+	<div style="width:722px; background:url(/article-imager/kcxx_04-3.jpg)">
+		<div class="rightz">
+			<div class="rightcon" style=" text-align:center;">
+		<div class="kjrightz">
+			<div class="kjrighttop">
+				<div class="kjrightbottom">
+					<div class="mbx"><div style="clear:both;"></div></div>
+					<div class="kcxxrtcon" style="padding-top:10px;">
+						<div class="rightxxk" id="rightxxk">
+							<div>{$post_content}{$name}</div>
+							<div style="clear:both;"></div>
+						</div>
+						<div class="kcxxzcon">
+							<iframe src=""  id="ejmain" name="ejmain" frameborder="0" scrolling="no" width="100%" height="100%" onLoad="resizea();parent.resize();" marginheight="0" marginwidth="0" allowtransparency="yes"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></div></div>
+</body>
+<script >
+	function resizea()
+	{
+		document.getElementById("ejmain").height=0;
+		document.getElementById("ejmain").height=document.getElementById("ejmain").contentWindow.document.body.scrollHeight;
+	}
+</script>
+<script>
+	document.getElementById('tbxgsy0').style.background="url(/article-imager/xgsyej_10.jpg) no-repeat center";
+	document.getElementById('tbxgsy0').style.color="#fff";
+</script>
+<script>
+	function xgsychanges(objz,objtm,num,objcon)
+	{
+		var dhz=document.getElementById(objz);
+		var dhli=dhz.getElementsByTagName('a').length;
+		for(i=0; i<dhli; i++)
+		{
+			var tmid=objtm+i;
+			var conid=objcon+i;
+			if(i==num)
+			{
+
+				document.getElementById(tmid).style.background="url(/article-imager/xgsyej_10.jpg) no-repeat center";
+				document.getElementById(tmid).style.color="#fff";
+				document.getElementById(conid).style.display="block";
+			}
+			else
+			{
+				document.getElementById(tmid).style.background="url(/article-imager/xgsyej_12.jpg) no-repeat center";
+				document.getElementById(tmid).style.color="#424242";
+				document.getElementById(conid).style.display="none";
+			}
+		}
+	}
+</script>
+</html>
+

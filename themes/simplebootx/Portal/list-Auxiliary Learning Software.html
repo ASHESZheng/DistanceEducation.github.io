@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$name} {$seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$seo_keywords}" />
+	<meta name="description" content="{$seo_description}">
+	<link rel="stylesheet" href="/themes/simplebootx/Public/assets/css/currency.css" type="text/css" />
+	<style>
+		body{ margin:0; padding:0; font-size:12px;}
+		.sbzss{text-align: center;float: left;width: 240px;}
+	</style>
+	<tc_include file="Public:head" />
+</head>
+<body>
+
+<div style="width:753px; ">
+	<div class="kjrightzjs">
+		<div class="kjrighttopjs">
+			<div class="kjrightbottomjs">
+				<div class="mbx">
+					<h1>{$name}</h1>
+					<span>当前位置：课程学习 >>{$name} </span>
+					<div style="clear:both;"></div></div>
+				<div class="kcxxrtcon">
+
+					<php>
+						$lists = sp_sql_posts_paged("cid:$cat_id;order:post_date DESC;",20);
+					</php>
+					<div class="zylbmain">
+								<volist name="lists['posts']" id="vo">
+									<php>
+										$smeta=json_decode($vo['smeta'], true);
+									</php>
+									<div class="sbzss">
+									<if condition="empty($smeta['thumb'])">
+										<div class="sbimg"><a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main"><img src="__TMPL__Public/images/default_tupian1.png"  alt="{$vo.post_title}" style="width: 220px; height: 190px;"/>
+											</a></div>
+										<else />
+										<div class="sbimg"><a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main"><img src="{:sp_get_asset_upload_path($smeta['thumb'])}"  alt="{$vo.post_title}" style="width: 220px; height: 190px;"/>
+									</a></div>
+									</if>
+									<div class="sbwz">
+										<a href="{:leuu('article/index',array('id'=>$vo['object_id'],'cid'=>$vo['term_id']))}" title="{$vo.post_title}" target="main">{$vo.post_title}</a>
+									</div>
+					                </div>
+								</volist>
+
+						<div style="clear:both"></div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
