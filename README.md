@@ -1,5 +1,6 @@
 ## README
-![Alt text](https://github.com/ASHESZheng/DistanceEducation.github.io/delete/master/Screenshots/1.png)
+![Alt text](https://github.com/ASHESZheng/DistanceEducation.github.io/blob/master/Screenshots/1.png)
+
 ## UPDATE
 ### X2.2.0
 [Core]
