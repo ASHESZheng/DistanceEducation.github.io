@@ -1,4 +1,4 @@
-![image](https://github.com/ASHESZheng/DistanceEducation.github.io/blob/master/ThinkCMF%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6%20ThinkCMF%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6.png）
+![image](https://github.com/ASHESZheng/DistanceEducation.github.io/blob/master/1.png）
 
 ## UPDATE
 ### X2.2.0
