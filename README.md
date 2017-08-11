@@ -20,18 +20,26 @@ php5.5+
 mysql 5.6+
 
 附上修改过的ThinkCMF文件及对应代码文件的基本目录
+
 修改过的后台模板文件目录
+
 admin\themes\simplebootx\Portal\AdminPost\add.html
+
 admin\themes\simplebootx\Portal\AdminPost\edit.html
 
 修改过的后台文章编辑器js文件
+
 public\js\ueditor\ueditor.all.min.js
+
 public\js\ueditor\ueditor.config.js
 
 修改过的前台模板文件目录
+
 \themes\simplebootx\Portal\
+
 \themes\simplebootx\Portal\
 
 公共函数库（里面加入了一些其它自定义函数）
+
 application\Common\Common\function.php
 
