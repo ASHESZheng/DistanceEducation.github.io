@@ -36,22 +36,39 @@ public\js\ueditor\ueditor.config.js
 修改过的前台模板文件目录
 
 \themes\simplebootx\Portal\about.html
+
 \themes\simplebootx\Portal\article.html
+
 \themes\simplebootx\Portal\contact.html
+
 \themes\simplebootx\Portal\index.html
+
 \themes\simplebootx\Portal\article-Blue Border.html
+
 \themes\simplebootx\Portal\article-comprehensive exercise.html
+
 \themes\simplebootx\Portal\article-currency.html
+
 \themes\simplebootx\Portal\list-Animation highlights.html
+
 ......
+
 \themes\simplebootx\Public\footer.html
+
 \themes\simplebootx\Public\footer-index.html
+
 \themes\simplebootx\Public\footer-list.html
+
 \themes\simplebootx\Public\head.html
+
 \themes\simplebootx\Public\nav.html
+
 \themes\simplebootx\Public\nav-index.html
+
 \themes\simplebootx\Public\nav-list.html
+
 \themes\simplebootx\Public\nav-off.html
+
 themes\simplebootx\Public\scripts.html
 
 公共函数库（里面加入了一些其它自定义函数）
