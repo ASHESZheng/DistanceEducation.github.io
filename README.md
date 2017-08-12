@@ -1,4 +1,4 @@
-## DistanceEducation
+## gzhtsoft
 ![Alt text](https://github.com/ASHESZheng/DistanceEducation.github.io/blob/master/Screenshots/1.png)
 
 本项目是基于ThinkCMF X2.2.3内容管理框架开发的现代远程教育网站，展示了学校详细介绍，利用网站提供的网页，课件资源进行异步教学。采用的技术主要有JavaScript，bootstrap，HTML等，基于ThinkCMF框架进行二次开发。是本人第一次独立开发的实践也是实验项目，目前系统已完成百分之九十以上，代码相对比较简单并且使用了大量的自我构思，所以代码难免有瑕疵之处，请轻喷！
@@ -35,9 +35,24 @@ public\js\ueditor\ueditor.config.js
 
 修改过的前台模板文件目录
 
-\themes\simplebootx\Portal\
-
-\themes\simplebootx\Portal\
+\themes\simplebootx\Portal\about.html
+\themes\simplebootx\Portal\article.html
+\themes\simplebootx\Portal\contact.html
+\themes\simplebootx\Portal\index.html
+\themes\simplebootx\Portal\article-Blue Border.html
+\themes\simplebootx\Portal\article-comprehensive exercise.html
+\themes\simplebootx\Portal\article-currency.html
+\themes\simplebootx\Portal\list-Animation highlights.html
+......
+\themes\simplebootx\Public\footer.html
+\themes\simplebootx\Public\footer-index.html
+\themes\simplebootx\Public\footer-list.html
+\themes\simplebootx\Public\head.html
+\themes\simplebootx\Public\nav.html
+\themes\simplebootx\Public\nav-index.html
+\themes\simplebootx\Public\nav-list.html
+\themes\simplebootx\Public\nav-off.html
+themes\simplebootx\Public\scripts.html
 
 公共函数库（里面加入了一些其它自定义函数）
 
